@@ -1,0 +1,20 @@
+{
+	"games": [
+		{
+			"game": {
+				"number": 1,
+				"startDate": "",
+				"endDate": "",
+				"drawTotal": "",
+				"playerTotal": 0,
+				"winner": "",
+				"winnings": 0
+			},
+			"players": [{ "name": "", "ballTotal": 0, "winner": false }],
+			"balls": {
+				"totalDrawn": 0,
+				"totalUnique": 0
+			}
+		}
+	]
+}

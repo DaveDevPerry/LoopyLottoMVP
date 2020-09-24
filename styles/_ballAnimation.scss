@@ -1,0 +1,71 @@
+// <div class="latest-draw-anim">
+// <div class="latest-ball" id="ball-drawn-1">
+//   <span>21</span>
+// </div>
+// <div class="latest-ball" id="ball-drawn-2"><span>22</span></div>
+
+// <!--	<div class="latest-ball" id="ball-drawn-3"><span>32</span></div>
+// <div class="latest-ball" id="ball-drawn-4"><span>36</span></div>
+// <div class="latest-ball" id="ball-drawn-5"><span>45</span></div>
+// <div class="latest-ball" id="ball-drawn-6"><span>50</span></div>
+// <div class="latest-ball" id="ball-drawn-bb">
+//   <span>05</span>
+// </div> -->
+// </div>
+
+.current-section-title {
+	@include flex(space-between, center, row);
+	.latest-draw-anim {
+		@include flex(space-evenly, center, row);
+		.latest-ball {
+			margin-right: 2rem;
+			border: 1px solid black;
+			height: 5rem;
+			width: 5rem;
+			border-radius: 50%;
+			position: relative;
+			span {
+				text-align: center;
+				font-size: 2rem;
+				// font-weight: 600;
+				border-bottom: 1px solid black;
+				color: black;
+				position: absolute;
+				top: 50%;
+				left: 50%;
+				transform: translate(-50%, -62%);
+			}
+		}
+		#ball-drawn-1 {
+			background: radial-gradient(25px 25px, circle, red, #000);
+			// background-color: $ball-2s;
+			// transition: all 1 ease;
+			// animation: spin 1000ms linear infinite, moveLeftToRight 5s linear;
+		}
+		#ball-drawn-2 {
+			background-color: $ball-2s;
+			transition: all 1 ease;
+			animation: spin 1000ms linear infinite, slideIn 5s linear;
+		}
+		#ball-drawn-3 {
+			background-color: $ball-3s;
+			animation: spin 0.8s linear infinite;
+		}
+		#ball-drawn-4 {
+			background-color: $ball-3s;
+			animation: spin 0.8s linear infinite;
+		}
+		#ball-drawn-5 {
+			background-color: $ball-4s;
+			animation: spin 0.8s linear infinite;
+		}
+		#ball-drawn-6 {
+			background-color: $ball-5s;
+			animation: spin 0.8s linear infinite;
+		}
+		#ball-drawn-bb {
+			background-color: $ball-0s;
+			animation: slideIn 1s linear reverse, spin 0.8s linear infinite;
+		}
+	}
+}

@@ -1,0 +1,121 @@
+.main-section-container {
+	width: 100%;
+}
+.container {
+	border-radius: 1rem;
+	box-shadow: $shadow-out;
+	padding: 1rem 1rem 0.5rem 1rem;
+	// margin: 1rem;
+	// animation: fadeIn 3s linear 3s;
+}
+.game-metric-icons {
+	border-radius: 1rem;
+	box-shadow: $shadow-in;
+	padding: 0.1rem 0.5rem;
+	background: $bgColorDown;
+	@include flex(space-between, center, row);
+	.metric {
+		margin-left: 1rem;
+		padding: 0.3rem;
+		// background: yellow;
+		// position: relative;
+		i {
+			// color: rgb(124, 122, 122);
+			span {
+				// position: absolute;
+				// font-size: 1.2rem;
+				font-family: 'Roboto';
+				margin-left: 0.5rem;
+				// font-size: 1.8rem;
+				color: $titleText;
+				font-weight: 500;
+				// color: $primaryColor;
+				// font-weight: bolder;
+				// top: 50%;
+				// left: 50%;
+				// transform: translate(-50%, -50%);
+			}
+		}
+	}
+	.fa-check-circle {
+		color: $green;
+	}
+	.fa-times-circle {
+		color: $primaryColor;
+	}
+	.fa-wallet {
+		color: rgb(139, 39, 39);
+	}
+	.fa-users {
+		color: rgb(119, 24, 163);
+	}
+	.fa-calendar-alt {
+		color: orangered;
+	}
+	.fa-list-ol {
+		color: orangered;
+	}
+	.fa-trophy {
+		color: rgb(255, 136, 0);
+	}
+	.fa-house-user {
+		color: $primaryColor;
+		font-size: 3rem;
+	}
+
+	div:nth-child(1) {
+		margin-left: 0rem;
+	}
+}
+
+h1 {
+	font-size: $header1;
+	color: $primaryColor;
+	font-weight: 200;
+}
+h2 {
+	font-size: $header2;
+	color: $primaryColor;
+}
+h3 {
+	font-size: $header3;
+	color: $primaryColor;
+}
+h4 {
+	font-size: $header4;
+	color: $titleText;
+	margin-bottom: 1rem;
+}
+
+// ul {
+//   list-style: none;
+// }
+a {
+	text-decoration: none;
+	color: $primaryColor;
+}
+
+.btn-active {
+	box-shadow: $shadow-in;
+	color: $lightGrey;
+}
+
+.ball-drawn {
+	color: $lightGrey;
+	box-shadow: $shadow-in;
+}
+.red {
+	color: $primaryColor;
+	font-size: 2.5rem;
+	font-weight: 700;
+	font-family: 'roboto';
+}
+.ball-matched {
+	color: $green;
+}
+.highlight:hover {
+	color: $titleText;
+	// font-size: 1.8rem;
+	font-weight: bold;
+	background: $hoverText;
+}

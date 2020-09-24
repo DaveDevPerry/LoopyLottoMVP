@@ -1,0 +1,75 @@
+// Dark Mode Styles
+// colors
+// $bgColor: rgba(40, 40, 40, 1);
+// $bgColorDark: rgb(20, 20, 20);
+// $yellow: rgba(243, 247, 15, 1);
+// $green: rgba(34, 216, 43, 1);
+// $white: white;
+// $lightGrey: lightgrey;
+// $grey: grey;
+// $darkGrey: rgb(68, 68, 68);
+// $titleFont: 'Happy Monkey', cursive;
+// $header1: 3rem;
+// $header2: 1.8rem;
+// $header3: 2.2rem;
+// $header4: 2rem;
+// $text: 1.6rem;
+// $shadow-out: 4px 4px 4px #0a0a0a, -4px -4px 4px #313030;
+// $shadow-in: inset 2px 2px 4px #0a0a0a, inset -2px -2px 4px #313030;
+// // $gradient: linear-gradient(left, #38d39f, #38a4d3);
+// // $background-color: #154353;
+// // $grey-text: #2c2c2c;
+
+// Dark Mode Styles
+// colors
+
+$bgColor: #edeff3;
+$bgColorDown: #dfe1e6;
+$headerColor: #d5d6d8;
+$titleText: #2c2c2c;
+$primaryColor: rgb(175, 3, 3);
+$primaryText: grey;
+$green: green;
+$white: white;
+$lightGrey: rgb(235, 235, 235);
+$grey: grey;
+$darkGrey: rgb(68, 68, 68);
+$titleFont: 'Roboto', cursive;
+$header1: 3rem;
+$header2: 1.8rem;
+$header3: 2.2rem;
+$header4: 2rem;
+$text: 1.6rem;
+$shadow-out: -3px -3px 5px #ffffff, 3px 3px 5px #00000070;
+$shadow-in: inset -3px -3px 5px #ffffff, inset 3px 3px 3px #00000030;
+// $gradient: linear-gradient(left, #38d39f, #38a4d3);
+// $background-color: #154353;
+$grey-text: #161616;
+$hoverText: rgb(187, 184, 184);
+$lottoFont: 'cherl', cursive;
+$ball-0s: rgb(243, 241, 241);
+$ball-1s: rgb(130, 205, 255);
+$ball-2s: rgb(240, 83, 117);
+$ball-3s: rgb(129, 224, 100);
+$ball-4s: rgb(253, 255, 122);
+$ball-5s: rgb(156, 63, 121);
+
+.dark-mode {
+	$bgColor: #3e3e3f;
+	$bgColorDown: #2e2e30;
+	$headerColor: #222224;
+	$titleText: #faf6f6;
+	$primaryColor: rgb(175, 3, 3);
+	$primaryText: rgb(223, 219, 219);
+	$green: green;
+	$white: white;
+	$lightGrey: rgb(235, 235, 235);
+	$grey: grey;
+	$darkGrey: rgb(68, 68, 68);
+	$titleFont: 'Roboto', cursive;
+	$shadow-out: -3px -3px 5px #ffffff, 3px 3px 5px #00000070;
+	$shadow-in: inset -3px -3px 5px #ffffff, inset 3px 3px 3px #00000030;
+
+	$grey-text: #161616;
+	$hoverText: rgb(187, 184, 184);
+}

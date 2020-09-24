@@ -1,0 +1,66 @@
+.all-draw-history {
+	background: $bgColor;
+	.section-title {
+		color: $titleText;
+		p {
+			font-size: 2rem;
+			line-height: 2rem;
+		}
+	}
+	.section-footer {
+		@include flex(flex-end, center, row);
+		font-style: italic;
+		margin-top: 0.5rem;
+		color: $titleText;
+		font-size: 1.4rem;
+	}
+	table {
+		width: 100%;
+		border-collapse: collapse;
+		background: $bgColorDown;
+		box-shadow: $shadow-in;
+		// margin: 1rem;
+		border-radius: 10px;
+		tr {
+			// background: red;
+			border-bottom: 0.5px solid lightgrey;
+		}
+		tr:last-child {
+			border-bottom: none;
+		}
+		th {
+			padding: 1.5rem 1rem 0.5rem 1rem;
+			color: $primaryColor;
+			text-align: center;
+			font-weight: 100;
+			border-bottom: 1px solid grey;
+		}
+		th:nth-child(1) {
+			// width: 15rem;
+			text-align: left;
+			padding-right: 3rem;
+		}
+		th:nth-child(3) {
+			padding-left: 3rem;
+		}
+		td {
+			padding: 0.3rem 1rem;
+			padding-left: 1rem;
+			padding-right: 1rem;
+			// color: $lightGrey;
+			text-align: center;
+		}
+		td:nth-child(1) {
+			// width: 15rem;
+			text-align: left;
+			padding-right: 3rem;
+			text-transform: capitalize;
+			width: 15rem;
+		}
+		td:nth-child(8) {
+			padding-left: 3rem;
+
+			width: 12rem;
+		}
+	}
+}

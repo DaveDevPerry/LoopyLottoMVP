@@ -1,0 +1,333 @@
+// displays only the stuff for current game starting with .current-game
+
+.current-game {
+	margin-top: 1rem;
+	margin-bottom: 1rem;
+	// background: yellow;
+	padding: 1rem 2rem 2rem 2rem;
+	background: $headerColor;
+	// background: $bgColor;
+	border-radius: 1rem;
+	box-shadow: $shadow-out;
+	// background: $headerColor;
+
+	.grid-container {
+		display: grid;
+		// grid-template-columns: 120rem 30rem;
+		// grid-template-rows: auto;
+		grid-auto-rows: minmax(10px, auto);
+		grid-gap: 2rem;
+		align-items: start;
+
+		.grid-item-title {
+			grid-column: span 2;
+			// background: blue;
+			color: $primaryColor;
+			font-size: 1.6rem;
+			// font-weight: bold;
+			// font-family: 'TitanOne', cursive;
+		}
+
+		.grid-item3 {
+			grid-row: span 2;
+
+			// max-width: 30rem;
+			// grid-row-start: 1;
+			// grid-row-end: 4;
+			// background: blue;
+		}
+	}
+}
+#current-game {
+	animation: fadeIn 2.5s linear 0.4s;
+}
+#leaderboard-container {
+	animation: fadeIn 3.5s linear 0.4s;
+
+	.leaderboard {
+		// @include flex(center, center, column);
+		// min-width: 1100px;
+		// position: absolute;
+		// background: $headerColor;
+		background: $bgColor;
+		.section-title {
+			p {
+				// font-family: 'Titan One', cursive;
+				// text-transform: uppercase;
+				// color: rgb(196, 196, 194);
+				font-size: 2rem;
+				line-height: 2rem;
+				// font-weight: 800;
+				// text-shadow: 0px 1px 1px #4d4d4d;
+			}
+		}
+		table {
+			width: 100%;
+			border-collapse: collapse;
+			background: $bgColorDown;
+			box-shadow: $shadow-in;
+			// margin: 1rem;
+			border-radius: 10px;
+
+			thead {
+				tr {
+					// background: red;
+					// border-bottom: 0.5px solid lightgrey;
+					// line-height: 2.5rem;
+					th {
+						// font-size: 2rem;
+						padding: 1.5rem 1rem 0.5rem 1rem;
+						color: $primaryColor;
+
+						font-weight: 300;
+						text-align: center;
+						border-bottom: 1px solid grey;
+						&:nth-child(1) {
+							// width: 15rem;
+							text-align: left;
+							padding-right: 3rem;
+						}
+						&:nth-child(3) {
+							padding-left: 3rem;
+						}
+					}
+				}
+			}
+			tbody {
+				tr {
+					// background: red;
+					border-bottom: 0.5px solid lightgrey;
+					line-height: 2.5rem;
+					&:last-child {
+						border-bottom: none;
+					}
+
+					td {
+						// font-size: 1.6rem;
+						padding: 0.3rem 1rem;
+						// padding-left: 1rem;
+						// padding-right: 1rem;
+						font-weight: bold;
+						text-align: center;
+
+						&:nth-child(1) {
+							// width: 15rem;
+							text-align: left;
+							padding-right: 3rem;
+							text-transform: capitalize;
+							min-width: 20rem;
+							color: $darkGrey;
+						}
+						&:nth-child(12) {
+							padding-left: 3rem;
+							min-width: 8rem;
+							color: $darkGrey;
+						}
+					}
+					.ball {
+						color: $primaryColor;
+					}
+					.ball-matched {
+						color: $green;
+					}
+
+					// .player-playing:hover {
+					// 	color: $titleText;
+					// 	// font-size: 1.7rem;
+					// 	font-weight: bold;
+					// 	background: $hoverText;
+					// 	td {
+					// 		padding: 0.3rem 0.5rem;
+					// 		&:nth-child(1) {
+					// 			padding-right: 0px;
+					// 		}
+					// 		&:nth-last-child() {
+					// 			padding-left: 0px;
+					// 		}
+					// 	}
+					// }
+				}
+				.player-playing:hover {
+					color: $titleText;
+					// font-size: 1.7rem;
+					font-weight: bold;
+					background: $hoverText;
+					td {
+						padding: 0.3rem 0.5rem;
+						&:nth-child(1) {
+							padding-right: 0px;
+							padding-left: 1rem;
+						}
+						&:nth-child(12) {
+							padding-left: 2.5rem;
+							padding-right: 0.5rem;
+						}
+					}
+				}
+			}
+		}
+		.section-footer {
+			@include flex(flex-end, center, row);
+			margin-top: 0.5rem;
+			color: $titleText;
+			font-size: 1.4rem;
+		}
+	}
+}
+// **************************************************
+#current-game-draw-container {
+	animation: fadeIn 4.5s linear 0.4s;
+
+	.game-draw-history {
+		background: $bgColor;
+		.section-title {
+			color: $titleText;
+			p {
+				font-size: 2rem;
+				line-height: 2rem;
+			}
+		}
+		.section-footer {
+			@include flex(flex-end, center, row);
+			margin-top: 0.5rem;
+			color: $titleText;
+			font-size: 1.4rem;
+		}
+		table {
+			width: 100%;
+			border-collapse: collapse;
+			background: $bgColorDown;
+			box-shadow: $shadow-in;
+			// margin: 1rem;
+			border-radius: 10px;
+			tr {
+				// background: red;
+				border-bottom: 0.5px solid lightgrey;
+			}
+			tr:last-child {
+				border-bottom: none;
+			}
+			th {
+				padding: 1.5rem 1rem 0.5rem 1rem;
+				color: $primaryColor;
+				text-align: center;
+				font-weight: 100;
+				border-bottom: 1px solid grey;
+			}
+			th:nth-child(1) {
+				// width: 15rem;
+				text-align: left;
+				padding-right: 3rem;
+			}
+			th:nth-child(3) {
+				padding-left: 3rem;
+			}
+			td {
+				padding: 0.3rem 1rem;
+				padding-left: 1rem;
+				padding-right: 1rem;
+				// color: $lightGrey;
+				text-align: center;
+			}
+			td:nth-child(1) {
+				// width: 15rem;
+				text-align: left;
+				padding-right: 3rem;
+				text-transform: capitalize;
+				width: 15rem;
+			}
+			td:nth-child(8) {
+				padding-left: 3rem;
+
+				width: 12rem;
+			}
+		}
+	}
+}
+#all-balls-container {
+	animation: fadeIn 5.5s linear 0.4s;
+	.all-balls-drawn {
+		min-width: 30rem;
+		background: $bgColor;
+		.section-title {
+			p {
+				font-size: 2rem;
+				line-height: 2rem;
+			}
+		}
+		.balls-container {
+			border-radius: 1rem;
+			box-shadow: $shadow-in;
+			background: $bgColorDown;
+			.ball {
+				height: 4rem;
+				width: 4rem;
+				border-radius: 50%;
+				box-shadow: $shadow-out;
+				text-align: center;
+				background: $bgColor;
+				color: rgb(206, 202, 202);
+			}
+			.ball:hover {
+				border: 1px solid $hoverText;
+				background: $hoverText;
+				color: $titleText;
+				font-weight: bold;
+			}
+			.ball-matched {
+				// color: $darkGrey;
+				box-shadow: $shadow-in;
+				font-weight: 500;
+				color: $green;
+				background: $bgColorDown;
+			}
+			.ball-drawn:hover {
+				border: 1px solid $hoverText;
+				background: $hoverText;
+				color: $green;
+				font-weight: bold;
+			}
+		}
+
+		.section-footer {
+			@include flex(center, center, row);
+			margin-top: 0.5rem;
+			color: $titleText;
+			font-size: 1.4rem;
+		}
+
+		#hidden {
+			visibility: hidden;
+		}
+	}
+}
+
+// .last-draw-balls-display {
+// 	@include flex(space-between, center, row);
+// 	display: none;
+// 	margin: 0rem 1rem 0rem 1rem;
+// 	div {
+// 		background: $lightGrey;
+// 		height: 5rem;
+// 		width: 5rem;
+// 		border-radius: 50%;
+// 		position: relative;
+// 		p {
+// 			position: absolute;
+// 			top: 50%;
+// 			left: 50%;
+// 			transform: translate(-50%, -50%);
+// 			font-size: 3rem;
+// 			font-weight: 700;
+// 		}
+// 	}
+// }
+
+// .user,
+// .history,
+// .game-metrics,
+// .last-draw-balls-display,
+// .all-draw-history,
+// .game-history {
+// 	// visibility: hidden;
+// }

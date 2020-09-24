@@ -1,0 +1,184 @@
+@media only screen and (max-width: 1070px) {
+	.current-draw-menu {
+		.menu-links {
+			P {
+				line-height: 10rem;
+				font-size: 3rem;
+			}
+		}
+	}
+	// current game page
+	#current-game {
+		.grid-container {
+			display: grid;
+			// grid-template-columns: 120rem 30rem;
+			// grid-template-rows: auto;
+			grid-template-columns: 1fr;
+			grid-gap: 0rem;
+			align-items: start;
+			justify-items: center;
+
+			.grid-item-title {
+				// grid-column: span 2;
+				// background: blue;
+				color: $primaryColor;
+				font-size: 1.8rem;
+				// font-weight: bold;
+				// font-family: 'TitanOne', cursive;
+			}
+			.grid-item1 {
+				grid-row: 2;
+				margin-top: 1rem;
+				// position: relative;
+			}
+			.grid-item2 {
+				grid-row: 3;
+				margin-top: 2rem;
+			}
+			.grid-item3 {
+				grid-row: 4;
+				margin-top: 2rem;
+			}
+		}
+		.all-balls-drawn {
+			max-width: 30rem;
+		}
+	}
+}
+
+@media only screen and (max-width: 750px) {
+	html {
+		font-size: 45%;
+	}
+}
+@media only screen and (max-width: 540px) {
+	main .page-container .navbar {
+		@include flex(center, center, row);
+		width: 100vw;
+		#date {
+			display: none;
+		}
+		.settings-container {
+			display: none;
+		}
+	}
+	#current-game {
+		padding: 1rem;
+		width: 98%;
+	}
+	.grid-container {
+		width: 100%;
+	}
+	#leaderboard-container {
+		width: 100%;
+	}
+	#leaderboard-container .leaderboard table td {
+		padding: 0.5rem 0.5rem;
+
+		font-weight: bold;
+		//     padding-right: 1rem;
+		//     padding-left: 1rem;
+		// padding-left: 1rem;
+		// padding-right: 1rem;
+		text-align: center;
+	}
+	#leaderboard-container .leaderboard table thead tr {
+		font-size: 2.4rem;
+		font-weight: bold;
+		th:nth-child(1) {
+			padding-left: 0.5rem;
+			padding-right: 0rem;
+		}
+		th:nth-child(3) {
+			padding-left: 0.5rem;
+		}
+	}
+	#leaderboard-container .leaderboard table tbody tr {
+		td {
+			padding: 0.5rem 0.3rem;
+			font-size: 2.4rem;
+		}
+
+		td:nth-child(12) {
+			padding-left: 0.5rem;
+			min-width: 2rem;
+		}
+		td:nth-child(1) {
+			text-align: left;
+			padding: 2rem 1rem;
+			text-transform: capitalize;
+			min-width: unset;
+			width: 8rem;
+		}
+	}
+	.game-draw-history table tr,
+	.leaderboard table tr {
+		line-height: 4rem;
+	}
+	.game-draw-history table th:nth-child(3) {
+		padding-left: 0rem;
+	}
+}
+
+@media only screen and (max-width: 375px) {
+	// 	main .page-container .navbar {
+	// 		@include flex(center, center, row);
+	// 		width: 100vw;
+	// 		#date {
+	// 			display: none;
+	// 		}
+	// 		.settings-container {
+	// 			display: none;
+	// 		}
+	// 	}
+	#leaderboard-container .leaderboard table tbody tr {
+		td {
+			padding: 0.5rem 0.3rem;
+			font-size: 2rem;
+		}
+	}
+}
+// 	#leaderboard-container .leaderboard table td {
+// 		padding: 0.5rem 0.5rem;
+// 		// font-size: 2rem;
+// 		font-weight: bold;
+// 		//     padding-right: 1rem;
+// 		//     padding-left: 1rem;
+// 		// padding-left: 1rem;
+// 		// padding-right: 1rem;
+// 		text-align: center;
+// 	}
+// 	#leaderboard-container .leaderboard table thead tr {
+// 		th:nth-child(1) {
+// 			padding-left: 0.5rem;
+// 			padding-right: 0rem;
+// 		}
+// 		th:nth-child(3) {
+// 			padding-left: 0.5rem;
+// 		}
+// 	}
+// 	#leaderboard-container .leaderboard table tbody tr {
+// 		td {
+// 			padding: 0.5rem 0.3rem;
+// 		}
+
+// 		td:nth-child(12) {
+// 			padding-left: 0.5rem;
+// 			min-width: 4rem;
+// 		}
+// 		td:nth-child(1) {
+// 			text-align: left;
+// 			padding-right: 0.5rem;
+// 			text-transform: capitalize;
+// 			min-width: unset;
+// 		}
+// 	}
+// 	.game-draw-history table tr,
+// 	.leaderboard table tr {
+// 		line-height: 4rem;
+// 	}
+// 	.game-draw-history table th:nth-child(3) {
+// 		padding-left: 0rem;
+// 	}
+// }
+// }

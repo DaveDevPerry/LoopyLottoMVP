@@ -1,0 +1,264 @@
+*,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+html {
+	font-size: 62.5%;
+}
+
+body {
+	font-family: 'Roboto', sans-serif;
+	background: rgb(194, 191, 191);
+	// font-family: 'cherl';
+	color: $primaryText;
+	// width: 100vw;
+	// margin: auto;
+	font-size: 1.6rem;
+	// height: 100vh;
+	// background: yellow;
+	min-height: 100vh;
+	// background-image: url('../img/lottoballsbg.jpg');
+	position: relative;
+	// background-position: center; /* Center the image */
+	// background-repeat: no-repeat; /* Do not repeat the image */
+	// background-size: cover; /* Resize the background image to cover the entire container */
+	.current-draw-menu {
+		position: absolute;
+		padding-left: 1rem;
+		padding-top: 1rem;
+		// top: ;
+		// right: 100vw;
+		position: fixed;
+		top: 0;
+		height: 100%;
+		width: 100%;
+		background: $primaryColor;
+		transition: 0.4s;
+		z-index: 5;
+		clip-path: circle(6rem at 0 0);
+
+		.hamburger {
+			// position: absolute;
+			// position: relative;
+			cursor: pointer;
+			// right: 50%;
+			z-index: 6;
+			// top: 50%;
+			// transform: translate(-50%, -50%);
+			// text-align: right;
+			margin-left: auto;
+			margin-right: 0;
+		}
+		.line {
+			width: 2rem;
+			height: 3px;
+			background-color: $white;
+			margin: 4px;
+			pointer-events: none;
+		}
+		.menu-links {
+			position: absolute;
+			top: 50vh;
+			left: 50vw;
+			transform: translate(-50%, -50%);
+			text-align: center;
+
+			p {
+				// padding: 5rem;
+				line-height: 10rem;
+				text-transform: uppercase;
+				font-family: $lottoFont;
+				letter-spacing: 1rem;
+				font-size: 4rem;
+				// font-weight: 700;
+				color: $white;
+				cursor: pointer;
+				&:hover {
+					font-size: 4.4rem;
+					transition: 1s;
+				}
+			}
+		}
+	}
+	.grow-menu {
+		position: absolute;
+		padding-left: 1rem;
+		padding-top: 1rem;
+		// top: ;
+		// right: 100vw;
+		height: 1200px;
+		width: 1800px;
+		background: $primaryColor;
+		transition: 0.8s;
+		z-index: 5;
+
+		clip-path: circle(408rem at 0 0);
+	}
+	#current-draw-menu {
+		animation: fadeIn 8s linear;
+	}
+}
+header {
+	@include flex(center, center, row);
+	padding: 0.5rem;
+	height: 8rem;
+	background-color: $bgColor;
+	z-index: 4;
+	position: fixed;
+	top: 0;
+	width: 100vw;
+	overflow: hidden;
+	h1 {
+		font-family: $lottoFont;
+		font-weight: bolder;
+		font-size: 4.5rem;
+		letter-spacing: -0.4rem;
+		position: absolute;
+		// animation: fadeIn 7s linear;
+		// animation: 2s linear slideInFromLeft;
+	}
+
+	#brand span {
+		position: relative;
+
+		animation: jump 0.4s linear 10s;
+		display: inline-block;
+
+		// animation-delay: 0s;
+	}
+	#brand span:nth-child(1) {
+		animation-delay: 10s;
+		animation: rotateL 1.2s ease-in-out;
+	}
+	#brand span:nth-child(2) {
+		animation-delay: 1.2s;
+	}
+	#brand span:nth-child(3) {
+		animation-delay: 1.4s;
+	}
+	#brand span:nth-child(4) {
+		animation-delay: 1.6s;
+		// animation: 3s linear rotateP;
+	}
+	#brand span:nth-child(5) {
+		animation-delay: 1.8s;
+	}
+	#brand span:nth-child(6) {
+		animation-delay: 2s;
+	}
+	#brand span:nth-child(7) {
+		animation-delay: 2.2s;
+	}
+	#brand span:nth-child(8) {
+		animation-delay: 2.4s;
+	}
+	#brand span:nth-child(9) {
+		animation-delay: 2.6s;
+	}
+	#brand span:nth-child(10) {
+		animation-delay: 2.8s;
+	}
+	#brand span:nth-child(11) {
+		animation-delay: 3s;
+	}
+
+	.login-section {
+		display: none;
+	}
+	box-shadow: $shadow-out;
+}
+
+main {
+	min-height: 90vh;
+	// width: 95vw;
+	margin: auto;
+	padding-top: 9rem;
+	@include flex(flex-start, center, column);
+	// background: rgba(255, 255, 255, 0.9);
+	// opacity: 0.9;
+	// z-index: -1;
+	.page-container {
+		// margin-top: 1rem;
+		// width: 100%;
+		@include flex(center, center, column);
+
+		.navbar {
+			z-index: 1;
+			width: 100%;
+			padding: 0.4rem 2rem;
+			// margin: 1rem 1rem 0rem 1rem;
+			background: $headerColor;
+			border-radius: 1rem;
+			box-shadow: $shadow-out;
+			@include flex(space-between, center, row);
+			// .display-metrics {
+			// 	@include flex(space-between, center, row);
+			// }
+			margin: 2rem 0rem;
+
+			#date {
+				color: $titleText;
+				width: 15rem;
+			}
+			.countdown {
+				width: 40rem;
+				height: 4rem;
+				@include flex(center, center, row);
+				.time-ball {
+					@include flex(center, center, column);
+					border: 2px solid $primaryColor;
+					font-size: 2.5rem;
+					color: $titleText;
+					font-weight: bold;
+					margin: 0rem 0.2rem;
+					height: 7rem;
+					width: 7rem;
+					background: $bgColorDown;
+					border-radius: 50%;
+					box-shadow: $shadow-in;
+
+					p {
+						font-size: 1.4rem;
+						font-weight: 100;
+						color: $primaryText;
+					}
+				}
+			}
+			.settings-container {
+				width: 15rem;
+				font-size: 3rem;
+				text-align: right;
+			}
+		}
+		#navbar {
+			animation: fadeIn 1.5s linear 0.4s;
+		}
+	}
+	#page-container {
+		animation: fadeIn 0.5s linear;
+	}
+}
+#section-title {
+	font-size: 2.2rem;
+	font-weight: 400;
+}
+.section-title {
+	@include flex(space-between, center, row);
+	margin-bottom: 0.5rem;
+
+	p {
+		color: $titleText;
+		font-size: 2rem;
+		line-height: 2rem;
+	}
+}
+
+footer {
+	background-color: $bgColor;
+	height: 2vh;
+	// width: 95vw;
+	margin: auto;
+}

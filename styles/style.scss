@@ -1,0 +1,33 @@
+@mixin flex($justify, $align, $direction) {
+	display: flex;
+	justify-content: $justify;
+	align-items: $align;
+	flex-direction: $direction;
+}
+@font-face {
+	font-family: 'cherl';
+	// src: url('fonts/CHERI__.ttf');
+	src: url('../fonts/CHERL___.TTF');
+	// src: url("CustomFont.woff") format("woff"),
+	// url("CustomFont.otf") format("opentype"),
+	// url("CustomFont.svg#filename") format("svg");
+}
+@font-face {
+	font-family: 'roboto', sans-serif;
+	src: url(../fonts/Roboto-Regular.ttf);
+	src: url(../fonts/Roboto-Medium.ttf);
+}
+
+@import 'variables';
+@import 'globalClasses';
+@import 'login';
+@import 'main';
+@import 'currentGame';
+@import 'gameHistory';
+@import 'drawHistory';
+@import 'ballHistory';
+@import 'hamburger';
+@import 'keyframes';
+@import 'mediaQueries';
+@import 'ballGenerator';
+// @import "footer";

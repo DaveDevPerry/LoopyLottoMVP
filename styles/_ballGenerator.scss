@@ -1,0 +1,72 @@
+#ball-gen-container {
+	margin: 1rem;
+	border-radius: 1rem;
+	.ten-balls {
+		@include flex(center, center, row);
+		padding: 1rem;
+		// border: 2px solid black;
+		background: lightgray;
+		border-radius: 1rem;
+		box-shadow: $shadow-in;
+		.random-ball {
+			display: block;
+			margin: 0rem 1rem;
+			height: 7rem;
+			width: 7rem;
+			border-radius: 50%;
+			// border: 3px solid rgb(139, 5, 5);
+			position: relative;
+			// background: rgb(248, 66, 66);
+			background: radial-gradient(
+				circle at 65% 15%,
+				white 1px,
+				rgb(248, 126, 118) 3%,
+				$primaryColor 80%,
+				rgb(248, 126, 118) 100%
+			);
+			.random-num {
+				position: absolute;
+				top: 50%;
+				left: 50%;
+				transform: translate(-50%, -50%);
+				font-size: 3rem;
+				color: $white;
+				// text-decoration: underline;
+			}
+		}
+	}
+	#controls {
+		text-align: center;
+	}
+	// #controls {
+	// 	#gen-balls {
+	// 	}
+	// }
+}
+.random-ball {
+	display: block;
+	width: 150px;
+	height: 150px;
+	margin: 50px auto 0;
+	border-radius: 50%;
+}
+
+.b1 {
+	background-color: rgb(49, 145, 231);
+	box-shadow: inset -25px -15px 40px rgba(0, 0, 0, 0.3);
+	background-image: linear-gradient(
+		-45deg,
+		rgba(255, 255, 220, 0.3) 0%,
+		transparent 100%
+	);
+}
+
+.b2 {
+	background: radial-gradient(
+		circle at 65% 15%,
+		white 1px,
+		aqua 3%,
+		darkblue 60%,
+		aqua 100%
+	);
+}
