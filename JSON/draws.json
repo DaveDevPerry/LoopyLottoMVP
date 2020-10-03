@@ -97,6 +97,27 @@
 			"numbers": [8, 17, 28, 35, 47, 51],
 			"bonusBall": 52,
 			"winner": false
+		},
+		{
+			"date": "26/09/2020",
+			"day": "Saturday",
+			"numbers": [1, 19, 35, 38, 54, 55],
+			"bonusBall": 45,
+			"winner": "martin"
+		},
+		{
+			"date": "30/09/2020",
+			"day": "Wednesday",
+			"numbers": [10, 25, 34, 41, 46, 55],
+			"bonusBall": 36,
+			"winner": false
+		},
+		{
+			"date": "03/10/2020",
+			"day": "Saturday",
+			"numbers": [1, 4, 13, 24, 27, 47],
+			"bonusBall": 2,
+			"winner": false
 		}
 	]
 }
