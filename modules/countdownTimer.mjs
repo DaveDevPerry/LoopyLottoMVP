@@ -24,7 +24,7 @@
 // }
 
 export function countdownTimer() {
-	const satDrawTimer = new Date('Oct 14, 2020 20:45:00').getTime();
+	const satDrawTimer = new Date('Oct 17, 2020 20:00:00').getTime();
 	const x = setInterval(function () {
 		const now = new Date().getTime();
 		const t = satDrawTimer - now;
