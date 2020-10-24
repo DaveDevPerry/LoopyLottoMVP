@@ -153,6 +153,13 @@
 			"numbers": [9,12,27,28,29,44],
 			"bonusBall": 8,
 			"winner": false
+		},
+		{
+			"date": "24/10/2020",
+			"day": "Saturday",
+			"numbers": [13,18,19,47,53,57],
+			"bonusBall": 44,
+			"winner": false
 		}
 	]
 }
