@@ -160,6 +160,13 @@
 			"numbers": [13,18,19,47,53,57],
 			"bonusBall": 44,
 			"winner": false
+		},
+		{
+			"date": "28/10/2020",
+			"day": "Wednesday",
+			"numbers": [11,18,27,38,47,59],
+			"bonusBall": 14,
+			"winner": false
 		}
 	]
 }
