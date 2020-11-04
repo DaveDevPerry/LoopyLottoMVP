@@ -174,6 +174,13 @@
 			"numbers": [1,6,16,34,49,59],
 			"bonusBall": 35,
 			"winner": false
+		},
+		{
+			"date": "04/11/2020",
+			"day": "Wednesday",
+			"numbers": [10,20,28,32,35,50],
+			"bonusBall": 24,
+			"winner": false
 		}
 	]
 }
