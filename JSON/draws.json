@@ -230,6 +230,13 @@
 			"numbers": [9,27,35,45,46,57],
 			"bonusBall": 32,
 			"winner": false
+		},
+		{
+			"date": "02/12/2020",
+			"day": "Wednesday",
+			"numbers": [16,22,26,38,39,47],
+			"bonusBall": 48,
+			"winner": false
 		}
 	]
 }
