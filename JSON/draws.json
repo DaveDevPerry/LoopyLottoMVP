@@ -251,6 +251,13 @@
 			"numbers": [7,8,10,14,28,33],
 			"bonusBall": 26,
 			"winner": false
+		},
+		{
+			"date": "12/12/2020",
+			"day": "Saturday",
+			"numbers": [13,38,39,49,53,56],
+			"bonusBall": 59,
+			"winner": false
 		}
 	]
 }
