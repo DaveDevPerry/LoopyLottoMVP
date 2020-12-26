@@ -279,6 +279,13 @@
 			"numbers": [20,42,48,51,52,54],
 			"bonusBall": 21,
 			"winner": "Dave"
+		},
+		{
+			"date": "26/12/2020",
+			"day": "Saturday",
+			"numbers": [0,0,0,0,0,0],
+			"bonusBall": 0,
+			"winner": false
 		}
 	]
 }
