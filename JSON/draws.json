@@ -283,8 +283,8 @@
 		{
 			"date": "26/12/2020",
 			"day": "Saturday",
-			"numbers": [0,0,0,0,0,0],
-			"bonusBall": 0,
+			"numbers": [26,43,44,46,52,55],
+			"bonusBall": 6,
 			"winner": false
 		}
 	]
