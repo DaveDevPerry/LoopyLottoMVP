@@ -25,7 +25,7 @@
 
 export function countdownTimer() {
 	// sat 19:45 wed 20:00
-	const satDrawTimer = new Date('Jan 06, 2021 20:00:00').getTime();
+	const satDrawTimer = new Date('Jan 13, 2021 20:00:00').getTime();
 	const x = setInterval(function () {
 		const now = new Date().getTime();
 		const t = satDrawTimer - now;
