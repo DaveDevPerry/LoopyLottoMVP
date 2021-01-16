@@ -321,6 +321,13 @@
 			"numbers": [1,8,12,16,18,42],
 			"bonusBall": 4,
 			"winner": false
+		},
+		{
+			"date": "16/01/2021",
+			"day": "Saturday",
+			"numbers": [3,15,38,45,48,53],
+			"bonusBall": 27,
+			"winner": false
 		}
 	]
 }
