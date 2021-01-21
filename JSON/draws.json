@@ -328,6 +328,13 @@
 			"numbers": [3,15,38,45,48,53],
 			"bonusBall": 27,
 			"winner": false
+		},
+		{
+			"date": "20/01/2021",
+			"day": "Wednesday",
+			"numbers": [2,8,36,51,52,54],
+			"bonusBall": 10,
+			"winner": false
 		}
 	]
 }
