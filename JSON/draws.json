@@ -342,6 +342,13 @@
 			"numbers": [1,6,25,45,49,52],
 			"bonusBall": 56,
 			"winner": false
+		},
+		{
+			"date": "27/01/2021",
+			"day": "Wednesday",
+			"numbers": [22,30,34,35,45,50],
+			"bonusBall": 51,
+			"winner": false
 		}
 	]
 }
