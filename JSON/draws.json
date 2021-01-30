@@ -350,5 +350,12 @@
 			"bonusBall": 51,
 			"winner": false
 		}
+		{
+			"date": "30/01/2021",
+			"day": "Saturday",
+			"numbers": [4,28,31,36,51,55],
+			"bonusBall": 42,
+			"winner": false
+		}
 	]
 }
