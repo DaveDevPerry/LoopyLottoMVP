@@ -369,6 +369,13 @@
 			"day": "Saturday",
 			"numbers": [27,28,32,39,46,52],
 			"bonusBall": 6,
+			"winner": "John"
+		},
+		{
+			"date": "10/02/2021",
+			"day": "Wednesday",
+			"numbers": [29,1,33,15,49,42],
+			"bonusBall": 54,
 			"winner": false
 		}
 	]
