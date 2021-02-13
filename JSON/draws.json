@@ -377,6 +377,13 @@
 			"numbers": [1,15,29,33,42,49],
 			"bonusBall": 54,
 			"winner": false
+		},
+		{
+			"date": "13/02/2021",
+			"day": "Saturday",
+			"numbers": [15,16,37,42,44,50],
+			"bonusBall": 48,
+			"winner": false
 		}
 	]
 }
