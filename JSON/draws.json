@@ -398,6 +398,13 @@
 			"numbers": [3,16,18,24,36,56],
 			"bonusBall": 10,
 			"winner": false
-		}
+		},
+		{
+			"date": "24/02/2021",
+			"day": "Wednesday",
+			"numbers": [1,9,16,17,18,34],
+			"bonusBall": 13,
+			"winner": false
+		},
 	]
 }
