@@ -412,6 +412,13 @@
 			"numbers": [4,33,36,39,45,49],
 			"bonusBall": 20,
 			"winner": false
+		},
+		{
+			"date": "03/03/2021",
+			"day": "Wednesday",
+			"numbers": [2,3,8,23,40,54],
+			"bonusBall": 52,
+			"winner": false
 		}
 	]
 }
