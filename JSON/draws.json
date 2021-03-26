@@ -453,7 +453,7 @@
 			"day": "Saturday",
 			"numbers": [12,15,24,34,36,51],
 			"bonusBall": 21,
-			"winner": false
+			"winner": "Rob"
 		}
 	]
 }
