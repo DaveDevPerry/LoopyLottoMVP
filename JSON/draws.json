@@ -482,6 +482,13 @@
 			"numbers": [2,8,28,32,40,45],
 			"bonusBall": 5,
 			"winner": false
+		},
+		{
+			"date": "07/04/2021",
+			"day": "Wednesday",
+			"numbers": [12,38,40,51,57,58],
+			"bonusBall": 29,
+			"winner": false
 		}
 	]
 }
