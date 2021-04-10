@@ -489,6 +489,13 @@
 			"numbers": [12,38,40,51,57,58],
 			"bonusBall": 29,
 			"winner": false
+		},
+		{
+			"date": "10/04/2021",
+			"day": "Saturday",
+			"numbers": [20,25,26,48,49,50],
+			"bonusBall": 30,
+			"winner": false
 		}
 	]
 }
