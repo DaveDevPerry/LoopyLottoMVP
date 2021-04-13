@@ -18,8 +18,8 @@
 // 			clearInterval(x);
 // 			const message = document.querySelector('.countdown');
 // 			message.innerHTML = 'Draw In Progress';
-// 			message.classList.add('red');
-// 		}
+// 			message.classList.add('red'); 
+// 		} 
 // 	}, 1000);
 // }
 
