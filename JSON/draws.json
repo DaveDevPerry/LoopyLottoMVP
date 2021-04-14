@@ -496,6 +496,13 @@
 			"numbers": [20,25,26,48,49,50],
 			"bonusBall": 30,
 			"winner": false
+		},
+		{
+			"date": "14/04/2021",
+			"day": "Wednesday",
+			"numbers": [6,12,20,48,52,57],
+			"bonusBall": 34,
+			"winner": false
 		}
 	]
 }
