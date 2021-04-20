@@ -13,7 +13,7 @@
 // 		<div class="time-ball">${hours}<p>hours</p></div>:
 // 		<div class="time-ball">${minutes}<p>mins</p></div>:
 // 		<div class="time-ball">${seconds}<p>secs</p></div>`;
-//  jajsjdjf fcfgf
+//  jajsjdjf fcfgfnjhjhjhj
 // 		if (t < 0) {
 // 			clearInterval(x);
 // 			const message = document.querySelector('.countdown');
