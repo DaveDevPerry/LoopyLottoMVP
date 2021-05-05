@@ -19,7 +19,7 @@
 // 			const message = document.querySelector('.countdown');
 // 			message.innerHTML = 'Draw In Progress';
 // 			message.classList.add('red'); 
-// 		}    
+// 		}    need to add login
 // 	}, 1000);
 // }
 
