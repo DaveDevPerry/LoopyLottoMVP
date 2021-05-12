@@ -551,6 +551,13 @@
 			"day": "Saturday",
 			"numbers": [10,12,23,31,37,46],
 			"bonusBall": 15,
+			"winner": "john"
+		},
+		{
+			"date": "12/05/2021",
+			"day": "Wednesday",
+			"numbers": [10,17,23,40,51,52],
+			"bonusBall": 20,
 			"winner": false
 		}
 	]
