@@ -573,6 +573,13 @@
 			"numbers": [18,36,50,53,57,58],
 			"bonusBall": 22,
 			"winner": false
+		},
+		{
+			"date": "22/05/2021",
+			"day": "Saturday",
+			"numbers": [9,20,41,43,46,48],
+			"bonusBall": 7,
+			"winner": false
 		}
 	]
 }
