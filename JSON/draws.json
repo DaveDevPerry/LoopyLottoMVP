@@ -601,6 +601,13 @@
 			"numbers": [1,15,17,33,53,59],
 			"bonusBall": 41,
 			"winner": false
+		},
+		{
+			"date": "05/06/2021",
+			"day": "Saturday",
+			"numbers": [3,6,57,39,46,33],
+			"bonusBall": 17,
+			"winner": false
 		}
 	]
 }
