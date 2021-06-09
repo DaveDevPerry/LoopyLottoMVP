@@ -13,7 +13,7 @@
 // 		<div class="time-ball">${hours}<p>hours</p></div>:
 // 		<div class="time-ball">${minutes}<p>mins</p></div>:
 // 		<div class="time-ball">${seconds}<p>secs</p></div>`;
-//  jajsjdjf fcfgfnjhjhjhj
+
 // 		if (t < 0) {
 // 			clearInterval(x);
 // 			const message = document.querySelector('.countdown');
@@ -25,7 +25,7 @@
 
 export function countdownTimer() {
 	// sat 19:45 wed 20:00
-	const satDrawTimer = new Date('June 09, 2021 20:00:00').getTime();
+	const satDrawTimer = new Date('June 12, 2021 19:45:00').getTime();
 	const x = setInterval(function () {
 		const now = new Date().getTime();
 		const t = satDrawTimer - now;

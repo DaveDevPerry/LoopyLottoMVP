@@ -608,6 +608,13 @@
 			"numbers": [3,6,57,39,46,33],
 			"bonusBall": 17,
 			"winner": false
+		},
+		{
+			"date": "09/06/2021",
+			"day": "Wednesday",
+			"numbers": [9,15,24,34,43,49],
+			"bonusBall": 32,
+			"winner": false
 		}
 	]
 }
