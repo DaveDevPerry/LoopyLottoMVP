@@ -23,6 +23,8 @@
 // 	}, 1000);
 // }
 
+// need to write automatic funciton to save changing this every week
+
 export function countdownTimer() {
 	// sat 19:45 wed 20:00
 	const satDrawTimer = new Date('June 16, 2021 20:00:00').getTime();
