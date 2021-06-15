@@ -73,12 +73,32 @@ const day = new Date().getDay();
 console.log(day);
 let nextDraw;
 
-if(day === 0 || day === 1 || day === 2){
+// if(day === 0 || day === 1 || day === 2){
+// 	nextDraw = nextWedDraw();
+// }
+// if(day === 4 || day === 5){
+// 	nextDraw = nextSatDraw();
+// }
+
+const nextWed = new Date(nextWedDraw()).getTime();
+// console.log(nextWed);
+const nextSat = new Date(nextSatDraw()).getTime();
+const currentDate = new Date().getTime();
+console.log(currentDate,nextWed,nextSat);
+
+const msToWed = nextWed - currentDate;
+const msToSat = nextSat - currentDate;
+console.log(msToWed,msToSat);
+
+if(msToWed < msToSat){
 	nextDraw = nextWedDraw();
 }
-if(day === 4 || day === 5){
+if(msToWed > msToSat){
 	nextDraw = nextSatDraw();
 }
+
+const nextDrawMs = new Date(nextDraw).getTime();
+console.log(nextDrawMs);
 
 
 return nextDraw;
