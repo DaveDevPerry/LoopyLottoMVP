@@ -26,8 +26,13 @@
 // need to write automatic funciton to save changing this every week
 
 export function countdownTimer() {
+const nextDraw = returnNextDraw();
+console.log(nextDraw);
+
 	// sat 19:45 wed 20:00
-	const satDrawTimer = new Date('June 16, 2021 20:00:00').getTime();
+	const satDrawTimer = new Date(`${nextDraw}`).getTime();
+	console.log(satDrawTimer);
+	// const satDrawTimer = new Date('June 16, 2021 20:00:00').getTime();
 	const x = setInterval(function () {
 		const now = new Date().getTime();
 		const t = satDrawTimer - now;
@@ -49,4 +54,72 @@ export function countdownTimer() {
 			message.classList.add('red');
 		}
 	}, 1000);
+}
+
+const months = ['Jan','Feb','Mar','Apr','May','June','July','Aug','Sept','Oct','Nov','Dec']
+
+function returnNextDraw(){
+	// both draw details
+	// const wedDraw = 
+// get last updated draw
+const lastDraw = document.querySelector('#game-last-updated').innerText;
+console.log(lastDraw);
+// current date details
+const now = new Date().getTime();
+const today = new Date().toLocaleDateString();
+
+console.log(today);
+const day = new Date().getDay();
+console.log(day);
+let nextDraw;
+
+if(day === 0 || day === 1 || day === 2){
+	nextDraw = nextWedDraw();
+}
+if(day === 4 || day === 5){
+	nextDraw = nextSatDraw();
+}
+
+
+return nextDraw;
+// const date = new Date().getTime();
+}
+
+function nextWedDraw(){
+const drawTime = "20:00:00";
+
+let d = new Date();
+d.setDate(d.getDate() + (3 + 7 - d.getDay()) % 7);
+console.log(d);
+
+const month = months[d.getMonth()];
+console.log(month);
+const day = d.getDate();
+console.log(day);
+const year = d.getFullYear();
+console.log(year);
+
+const nextDraw = `${month} ${day}, ${year} ${drawTime}`;
+console.log(nextDraw);
+return nextDraw;
+}
+
+
+function nextSatDraw(){
+	const drawTime = "19:45:00";
+
+	let d = new Date();
+	d.setDate(d.getDate() + (6 + 7 - d.getDay()) % 7);
+	console.log(d);
+	
+	const month = months[d.getMonth()];
+	console.log(month);
+	const day = d.getDate();
+	console.log(day);
+	const year = d.getFullYear();
+	console.log(year);
+	
+	const nextDraw = `${month} ${day}, ${year} ${drawTime}`;
+	console.log(nextDraw);
+	return nextDraw;
 }
