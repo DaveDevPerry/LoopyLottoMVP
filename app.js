@@ -33,8 +33,14 @@ export let allBallsDrawn;
 // });
 
 window.onload = function () {
-	document.querySelector('#intro').play();
+	setTimeout(() => {
+		document.querySelector('.loader-container').style.display = 'none';
+		document.querySelector('#intro').play();
+	}, 2000);
 };
+// window.onload = function () {
+// 	document.querySelector('#intro').play();
+// };
 document.querySelector('#date').innerText = getDate();
 document.querySelector('#game-number').innerText = gameStartDates.length;
 document.querySelector('#hamburger-unique').addEventListener('click', (e) => {

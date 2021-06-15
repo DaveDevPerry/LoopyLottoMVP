@@ -8,17 +8,20 @@
 	font-family: 'cherl';
 	// src: url('fonts/CHERI__.ttf');
 	src: url('../fonts/CHERL___.TTF');
+	font-display: swap;
 	// src: url("CustomFont.woff") format("woff"),
 	// url("CustomFont.otf") format("opentype"),
 	// url("CustomFont.svg#filename") format("svg");
 }
 @font-face {
 	font-family: 'roboto', sans-serif;
-	src: url(../fonts/Roboto-Regular.ttf);
-	src: url(../fonts/Roboto-Medium.ttf);
+	src: url('../fonts/Roboto-Regular.ttf');
+	src: url('../fonts/Roboto-Medium.ttf');
+	font-display: swap;
 }
 
 @import 'variables';
+@import 'loader';
 @import 'globalClasses';
 @import 'login';
 @import 'main';
