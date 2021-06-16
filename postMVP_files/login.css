@@ -1,0 +1,148 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+html {
+	font-size: 62.5%;
+}
+
+body {
+	height: 100vh;
+	color: black;
+	font-family: 'roboto', sans-serif;
+	/* background: #faf7f7;
+   */
+}
+body #bg-img {
+	height: 100%;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	position: relative;
+	/* display: block; */
+	/* opacity: 0.1; */
+}
+
+body #bg-img::after {
+	content: '';
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	background: url('./img/balls-bg.jpg');
+	top: 0px;
+	left: 0px;
+	right: 0px;
+	bottom: 0px;
+	opacity: 0.3;
+	position: absolute;
+	z-index: -5;
+}
+
+.form-container {
+	width: 35rem;
+	height: 35rem;
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	flex-direction: column;
+	border-radius: 1rem;
+	box-shadow: 3px 3px 3px #00000020, -3px -3px 3px #ffffff;
+	background: #faf7f7;
+	padding: 2rem;
+	/* opacity: 1;
+	z-index: 3; */
+}
+.form-container h1 {
+	margin-bottom: 6rem;
+	font-family: 'cherl';
+}
+
+.form-input {
+	width: 100%;
+	position: relative;
+	height: 6rem;
+	overflow: hidden;
+	margin: 0.5rem 0rem;
+}
+
+.form-input input {
+	width: 100%;
+	height: 100%;
+	color: black;
+	padding-top: 2rem;
+	border: none;
+	font-size: 2.2rem;
+	background: #faf7f7;
+	outline: none;
+}
+.form-input label {
+	position: absolute;
+	font-size: 2.2rem;
+	color: slategray;
+	bottom: 0px;
+	left: 0px;
+	height: 100%;
+	width: 100%;
+	pointer-events: none;
+	border-bottom: 1px solid black;
+}
+.form-input label::after {
+	content: '';
+	position: absolute;
+	left: 0px;
+	bottom: -1px;
+	height: 100%;
+	width: 100%;
+	border-bottom: 3px solid red;
+	transform: translateX(-100%);
+	transition: transform 1s ease;
+}
+
+.content-name {
+	position: absolute;
+	bottom: 5px;
+	left: 0px;
+	transition: all 1s ease;
+}
+
+.form-input input:focus + .label-name .content-name,
+.form-input input:valid + .label-name .content-name {
+	transform: translateY(-150%);
+	color: red;
+	font-size: 1.4rem;
+	font-style: italic;
+	/* font-size: 20px; */
+}
+
+.form-input input:focus + .label-name::after,
+.form-input input:valid + .label-name::after {
+	transform: translateX(0%);
+}
+.forgot {
+	font-size: 1.2rem;
+	font-style: italic;
+	align-self: flex-end;
+}
+
+#check-my-balls-container {
+	display: flex;
+	align-items: flex-end;
+	justify-content: flex-start;
+}
+#check-my-balls {
+	font-size: 2rem;
+	padding: 0.5rem;
+	/* margin: 3rem 2rem 0rem 0rem; */
+	border: none;
+	border-radius: 1rem;
+	cursor: pointer;
+	background: red;
+	color: white;
+}
+#check-my-balls .form-valid {
+	background: green;
+}
