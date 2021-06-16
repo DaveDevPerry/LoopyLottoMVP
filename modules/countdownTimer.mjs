@@ -26,7 +26,8 @@
 // need to write automatic funciton to save changing this every week
 
 export function countdownTimer() {
-const nextDraw = returnNextDraw();
+// const nextDraw = returnNextDraw();
+const nextDraw = 'June 19, 2021 19:45:00';
 console.log(nextDraw);
 
 	// sat 19:45 wed 20:00
