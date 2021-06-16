@@ -86,15 +86,17 @@ const nextSat = new Date(nextSatDraw()).getTime();
 const currentDate = new Date().getTime();
 console.log(currentDate,nextWed,nextSat);
 
-const msToWed = nextWed - currentDate;
-const msToSat = nextSat - currentDate;
+// const msToWed = nextWed - currentDate;
+// const msToSat = nextSat - currentDate;
+const msToWed = currentDate % nextWed;
+const msToSat = currentDate % nextSat;
 console.log(msToWed,msToSat);
 
 if(msToWed < msToSat){
-	nextDraw = nextWedDraw();
+	nextDraw = nextSatDraw();
 }
 if(msToWed > msToSat){
-	nextDraw = nextSatDraw();
+	nextDraw = nextWedDraw();
 }
 
 const nextDrawMs = new Date(nextDraw).getTime();
