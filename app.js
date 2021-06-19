@@ -17,7 +17,6 @@ import { getBallData } from './modules/getBallData.mjs';
 let userData;
 let allPlaying;
 let notPlaying = [];
-// let playerArr = [];
 // draw
 export let drawData;
 export let allBallsDrawn;
@@ -26,11 +25,6 @@ export let allBallsDrawn;
 // let uniqueBallsInGame = [];
 
 // EVENTS
-// window.addEventListener('DOMContentLoaded', (event) => {
-// 	console.log('DOM fully loaded and parsed');
-// 	const audio = new Audio('./audio/marbles-daniel_simon.mp3');
-// 	audio.play();
-// });
 
 // window.onload = function () {
 // 	setTimeout(() => {
@@ -44,8 +38,6 @@ window.onload = function () {
 document.querySelector('#date').innerText = getDate();
 document.querySelector('#game-number').innerText = gameStartDates.length;
 document.querySelector('#hamburger-unique').addEventListener('click', (e) => {
-	console.log(e);
-	console.log(e.target.parentElement);
 	e.target.parentElement.classList.toggle('grow-menu');
 	const audio = new Audio('./audio/Large_Bubble-SoundBible.com.mp3');
 	audio.play();
@@ -57,11 +49,6 @@ document.querySelector('#hamburger-unique').addEventListener('click', (e) => {
 	});
 });
 
-// dom elements
-
-// arrays
-
-// order of play
 countdownTimer();
 
 // *************************
