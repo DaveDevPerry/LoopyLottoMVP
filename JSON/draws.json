@@ -643,6 +643,13 @@
 			"numbers": [4,14,15,33,50,53],
 			"bonusBall": 16,
 			"winner": false
+		},
+		{
+			"date": "26/06/2021",
+			"day": "Saturday",
+			"numbers": [14,24,37,39,41,53],
+			"bonusBall": 19,
+			"winner": false
 		}
 
 	]
