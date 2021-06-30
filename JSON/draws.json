@@ -650,6 +650,13 @@
 			"numbers": [14,24,37,39,41,53],
 			"bonusBall": 19,
 			"winner": false
+		},
+		{
+			"date": "30/06/2021",
+			"day": "Wednesday",
+			"numbers": [12,27,34,38,40,41],
+			"bonusBall": 32,
+			"winner": false
 		}
 
 	]
