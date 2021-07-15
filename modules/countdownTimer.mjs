@@ -23,11 +23,11 @@
 // 	}, 1000);
 // }
 
-// need to write automatic funciton to save changing this every week
+// need to write automatic function to save changing this every week
 
 export function countdownTimer() {
 // const nextDraw = returnNextDraw();
-const nextDraw = 'July 14, 2021 20:00:00';
+const nextDraw = 'July 17, 2021 19:45:00';
 console.log(nextDraw);
 
 	// sat 19:45 wed 20:00
