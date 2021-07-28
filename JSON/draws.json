@@ -706,6 +706,13 @@
 			"numbers": [6,7,17,28,34,37],
 			"bonusBall": 59,
 			"winner": false
+		},
+		{
+			"date": "28/07/2021",
+			"day": "Wednesday",
+			"numbers": [34,44,23,26,59,36],
+			"bonusBall": 43,
+			"winner": false
 		}
 
 	]
