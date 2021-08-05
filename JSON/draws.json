@@ -720,6 +720,13 @@
 			"numbers": [43,11,13,19,12,58],
 			"bonusBall": 48,
 			"winner": false
+		},
+		{
+			"date": "04/08/2021",
+			"day": "Wednesday",
+			"numbers": [3,16,27,34,36,46],
+			"bonusBall": 6,
+			"winner": false
 		}
 
 	]
