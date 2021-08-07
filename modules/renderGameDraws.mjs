@@ -3,7 +3,7 @@ export function renderGameDraws(arr) {
 	console.log(arr);
 	let reversed = arr.reverse();
 	console.log(reversed);
-	// reder metrics
+	// reader metrics
 	document.querySelector('#game-start-date').innerText =
 		reversed[reversed.length - 1][0];
 	document.querySelector('#game-last-updated').innerText = reversed[0][0];
