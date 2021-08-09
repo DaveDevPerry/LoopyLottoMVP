@@ -577,6 +577,21 @@ body {
   position: relative;
 }
 
+body .game-history-btn-container {
+  position: fixed;
+  z-index: 5;
+  top: 0;
+  left: 0;
+  height: 8rem;
+  display: -ms-grid;
+  display: grid;
+  place-content: center;
+}
+
+body .game-history-btn-container img {
+  padding-left: 1rem;
+}
+
 body .current-draw-menu {
   position: absolute;
   padding-left: 1rem;
@@ -585,12 +600,10 @@ body .current-draw-menu {
   top: 0;
   height: 100%;
   width: 100%;
-  background: #af0303;
   -webkit-transition: 0.4s;
   transition: 0.4s;
   z-index: 5;
-  -webkit-clip-path: circle(6rem at 0 0);
-          clip-path: circle(6rem at 0 0);
+  display: none;
 }
 
 body .current-draw-menu .hamburger {
@@ -598,6 +611,7 @@ body .current-draw-menu .hamburger {
   z-index: 6;
   margin-left: auto;
   margin-right: 0;
+  display: none;
 }
 
 body .current-draw-menu .line {
@@ -615,6 +629,7 @@ body .current-draw-menu .menu-links {
   -webkit-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
   text-align: center;
+  display: none;
 }
 
 body .current-draw-menu .menu-links p {
@@ -1898,6 +1913,9 @@ footer {
 }
 
 @media only screen and (max-width: 375px) {
+  body .game-history-btn-container img {
+    padding-left: 0.5rem;
+  }
   #leaderboard-container .leaderboard table tbody tr td {
     padding: 0.5rem 0.3rem;
     font-size: 2rem;

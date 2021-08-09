@@ -131,6 +131,12 @@
 	// 			display: none;
 	// 		}
 	// 	}
+	body .game-history-btn-container img {
+		padding-left: 0.5rem;
+	}
+	// header {
+	// 	@include flex(space-between, center, row);
+	// }
 	#leaderboard-container .leaderboard table tbody tr {
 		td {
 			padding: 0.5rem 0.3rem;

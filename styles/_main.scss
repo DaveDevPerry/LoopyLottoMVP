@@ -25,6 +25,30 @@ body {
 	// background-position: center; /* Center the image */
 	// background-repeat: no-repeat; /* Do not repeat the image */
 	// background-size: cover; /* Resize the background image to cover the entire container */
+	// .game-history-btn-container {
+	// 	position: absolute;
+	// 	top: 0;
+	// 	left: 0;
+	// 	padding-left: 1rem;
+	// 	padding-top: 1rem;
+	// 	height: 50px;
+	// 	width: 50px;
+	// 	border: 1px solid;
+	// 	background-color: lightblue;
+	// }
+	.game-history-btn-container {
+		position: fixed;
+		z-index: 5;
+		top: 0;
+		left: 0;
+		height: 8rem;
+		// border: 1px solid;
+		display: grid;
+		place-content: center;
+		img {
+			padding-left: 1rem;
+		}
+	}
 	.current-draw-menu {
 		position: absolute;
 		padding-left: 1rem;
@@ -35,11 +59,14 @@ body {
 		top: 0;
 		height: 100%;
 		width: 100%;
-		background: $primaryColor;
+		// background: $primaryColor;
 		transition: 0.4s;
 		z-index: 5;
-		clip-path: circle(6rem at 0 0);
-
+		// clip-path: circle(6rem at 0 0);
+		display: none;
+		img {
+			// border: 1px solid;
+		}
 		.hamburger {
 			// position: absolute;
 			// position: relative;
@@ -51,6 +78,7 @@ body {
 			// text-align: right;
 			margin-left: auto;
 			margin-right: 0;
+			display: none;
 		}
 		.line {
 			width: 2rem;
@@ -65,7 +93,7 @@ body {
 			left: 50vw;
 			transform: translate(-50%, -50%);
 			text-align: center;
-
+			display: none;
 			p {
 				// padding: 5rem;
 				line-height: 10rem;
@@ -168,6 +196,7 @@ header {
 	.login-section {
 		display: none;
 	}
+
 	box-shadow: $shadow-out;
 }
 
