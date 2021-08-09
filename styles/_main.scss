@@ -230,7 +230,8 @@ main {
 			.settings-container {
 				width: 15rem;
 				font-size: 3rem;
-				text-align: right;
+				@include flex(flex-end, center, row);
+				color: $primaryColor;
 			}
 		}
 		#navbar {

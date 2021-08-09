@@ -32,9 +32,36 @@
 		/>
 		<!-- <link rel="preload" href="./styles/style.css" /> -->
 		<!-- <link rel="preload" as="style" href="./styles/style.css"> -->
+		<script src="https://code.iconify.design/1/1.0.6/iconify.min.js"></script>
 		<link rel="stylesheet" href="./styles/style.css" />
 	</head>
 	<body>
+
+
+		<div class="game-history-container-modal">
+			<div id="game-history-container">
+				<div class="header">
+					<h2>Game History</h2>
+					<span class="iconify game-history-btn" id="close-modal" data-inline="false" data-icon="ant-design:close-square-filled" style="font-size: 25px;"></span>
+				</div>
+				<table id="game-history">
+					<thead>
+						<tr>
+						<th></th>
+						<th>first draw</th>
+						<th>last draw</th>
+						<th>draws</th>
+						<th>winner</th>
+						<th>winnings</th>
+						</tr>
+					</thead>
+					<tbody>
+				
+					</tbody>
+				</table>
+						</div>
+
+		</div>
 
 <!-- <div class="loader-container">
 	<div class="loader-wrapper">
@@ -116,6 +143,7 @@
 							<li><a href="./drawHistory/index.html">DRAW HISTORY</a></li>
 							<li><a href="Rules"></a></li>
 						</ul> -->
+						<span class="iconify game-history-btn" id="game-history-icon" data-inline="false" data-icon="icon-park-outline:history-query" style="font-size: 30px;"></span>
 					</div>
 				</section>
 				<!-- ************************************************************************************** -->
@@ -313,8 +341,19 @@
 				<!-- end of current game data  -->
 			</div>
 		</main>
+
+
+
+		
+
+
+
+
+
 		<audio id="intro" src="./audio/marbles-daniel_simon.mp3"></audio>
 		<footer></footer>
 		<script type="module" src="./app.js"></script>
+		<script type="module" src="./games.js"></script>
+		<!-- <script type="module" src="./script.js"></script> -->
 	</body>
 </html>

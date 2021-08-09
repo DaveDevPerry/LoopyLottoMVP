@@ -872,7 +872,20 @@ main .page-container .navbar .countdown .time-ball p {
 main .page-container .navbar .settings-container {
   width: 15rem;
   font-size: 3rem;
-  text-align: right;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  color: #af0303;
 }
 
 main .page-container #navbar {
@@ -1958,5 +1971,104 @@ footer {
 
 .b2 {
   background: radial-gradient(circle at 65% 15%, white 1px, aqua 3%, darkblue 60%, aqua 100%);
+}
+
+body .game-history-container-modal {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.6);
+  height: 100%;
+  width: 100vw;
+  z-index: 5000;
+  display: none;
+  place-content: center;
+  -webkit-transition: 1s ease;
+  transition: 1s ease;
+}
+
+body .game-history-container-modal #game-history-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  border-radius: 1rem;
+  padding: 1rem;
+  background-color: white;
+}
+
+body .game-history-container-modal #game-history-container .header {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+body .game-history-container-modal #game-history-container .header h2 {
+  font-size: 3rem;
+  padding-bottom: 1rem;
+}
+
+body .game-history-container-modal #game-history-container .header #close-modal {
+  color: #af0303;
+  -ms-flex-item-align: start;
+      align-self: flex-start;
+}
+
+body .game-history-container-modal #game-history-container table#game-history {
+  padding: 1rem;
+  border-collapse: collapse;
+}
+
+body .game-history-container-modal #game-history-container table#game-history thead {
+  width: 100%;
+}
+
+body .game-history-container-modal #game-history-container table#game-history thead tr th {
+  border-bottom: 1px solid;
+  padding: 0.5rem 1rem;
+}
+
+body .game-history-container-modal #game-history-container table#game-history thead tr th:nth-child(4) {
+  padding: 0.5rem 0;
+}
+
+body .game-history-container-modal #game-history-container table#game-history tbody {
+  width: 100%;
+}
+
+body .game-history-container-modal #game-history-container table#game-history tbody tr td {
+  border: 1px solid;
+  text-align: center;
+  padding: 0.5rem;
+}
+
+body .game-history-container-modal #game-history-container table#game-history tbody tr td:nth-child(5) {
+  text-transform: capitalize;
+  text-align: left;
+}
+
+body .game-history-container-modal #game-history-container table#game-history tbody tr td:last-child {
+  text-align: right;
+}
+
+body .game-history-container-modal.show-history {
+  display: -ms-grid;
+  display: grid;
+  -webkit-transition: 1s ease;
+  transition: 1s ease;
 }
 /*# sourceMappingURL=style.css.map */

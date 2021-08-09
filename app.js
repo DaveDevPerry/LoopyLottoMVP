@@ -10,6 +10,7 @@ import { renderGameTable } from './modules/renderGameTable.mjs';
 import { renderBallsDrawn } from './modules/renderBallsDrawn.mjs';
 import { renderBallsMatched } from './modules/renderBallsMatched.mjs';
 import { getBallData } from './modules/getBallData.mjs';
+import { renderGameHistoryTable } from './modules/getAllGamesData.mjs';
 
 // global
 
@@ -25,6 +26,8 @@ export let allBallsDrawn;
 // let uniqueBallsInGame = [];
 
 // EVENTS
+
+renderGameHistoryTable();
 
 // window.onload = function () {
 // 	setTimeout(() => {

@@ -733,7 +733,7 @@
 			"day": "Saturday",
 			"numbers": [10,15,22,41,51,57],
 			"bonusBall": 58,
-			"winner": false
+			"winner": "brenda"
 		}
 
 	]
