@@ -5,7 +5,7 @@
 }
 
 @font-face {
-  font-family: 'roboto', sans-serif;
+  font-family: 'roboto';
   src: url("../fonts/Roboto-Regular.ttf");
   src: url("../fonts/Roboto-Medium.ttf");
   font-display: swap;
@@ -885,7 +885,10 @@ main .page-container .navbar .settings-container {
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
-  color: #af0303;
+}
+
+main .page-container .navbar .settings-container img {
+  cursor: pointer;
 }
 
 main .page-container #navbar {
@@ -2026,6 +2029,7 @@ body .game-history-container-modal #game-history-container .header #close-modal 
   color: #af0303;
   -ms-flex-item-align: start;
       align-self: flex-start;
+  cursor: pointer;
 }
 
 body .game-history-container-modal #game-history-container table#game-history {

@@ -231,7 +231,10 @@ main {
 				width: 15rem;
 				font-size: 3rem;
 				@include flex(flex-end, center, row);
-				color: $primaryColor;
+				// color: $primaryColor;
+				img {
+					cursor: pointer;
+				}
 			}
 		}
 		#navbar {
