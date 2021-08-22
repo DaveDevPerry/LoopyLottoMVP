@@ -755,6 +755,13 @@
 			"numbers": [4,10,27,30,48,50],
 			"bonusBall": 54,
 			"winner": false
+		},
+		{
+			"date": "21/08/2021",
+			"day": "Saturday",
+			"numbers": [17,18,27,28,35,57],
+			"bonusBall": 51,
+			"winner": false
 		}
 
 	]
