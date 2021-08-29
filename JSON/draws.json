@@ -769,6 +769,13 @@
 			"numbers": [7,15,30,39,52,59],
 			"bonusBall": 38,
 			"winner": false
+		},
+		{
+			"date": "28/08/2021",
+			"day": "Saturday",
+			"numbers": [18,24,34,49,50,57],
+			"bonusBall": 41,
+			"winner": false
 		}
 
 	]
