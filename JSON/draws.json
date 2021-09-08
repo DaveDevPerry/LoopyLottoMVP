@@ -790,6 +790,13 @@
 			"numbers": [1,14,21,36,39,41],
 			"bonusBall": 34,
 			"winner": false
+		},
+		{
+			"date": "08/09/2021",
+			"day": "Wednesday",
+			"numbers": [3,4,13,14,38,56],
+			"bonusBall": 52,
+			"winner": false
 		}
 
 	]
