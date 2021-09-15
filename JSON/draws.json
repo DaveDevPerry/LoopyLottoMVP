@@ -804,6 +804,13 @@
 			"numbers": [2,13,38,42,52,54],
 			"bonusBall": 39,
 			"winner": false
+		},
+		{
+			"date": "15/09/2021",
+			"day": "Wednesday",
+			"numbers": [25,20,24,37,34,27],
+			"bonusBall": 50,
+			"winner": false
 		}
 
 	]
