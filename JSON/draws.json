@@ -852,7 +852,7 @@
 			"day": "Wednesday",
 			"numbers": [1,9,16,27,30,51],
 			"bonusBall":34,
-			"winner": false
+			"winner": "Hannah"
 		}
 
 	]
