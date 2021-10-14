@@ -860,6 +860,13 @@
 			"numbers": [6,9,30,48,51,52],
 			"bonusBall": 55,
 			"winner": false
+		},
+		{
+			"date": "13/10/2021",
+			"day": "Wednesday",
+			"numbers": [4,8,12,15,38,56],
+			"bonusBall":30,
+			"winner": false
 		}
 
 	]
