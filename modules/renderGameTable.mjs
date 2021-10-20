@@ -7,6 +7,8 @@ export function renderGameTable(playerArr) {
 	document.querySelector('#prize-pot').innerText = `£${
 		(playerArr.length - 1) * 0.5 * numOfGameDraws
 	}`;
+
+	document.querySelector('#player-fees').innerText = `Player fees for current game are £${(((playerArr.length - 1) * 0.5 * numOfGameDraws) / 8).toFixed(2)}`;
 	// console.log(arr);
 	// get dom elements
 	const table = document.querySelector('#current-game-players-table');
