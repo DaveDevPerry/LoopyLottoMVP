@@ -107,6 +107,7 @@ function renderGameHistory() {
       <td>${game.gameNumber}</td><td>${game.startDate}</td>
 			<td>${game.endDate}</td>
       <td>${game.draws}</td>
+			<td>£${(game.winnings / 8).toFixed(2)}</td>
       <td>${game.winner}</td>
       <td>£${game.winnings}.00</td>
     `;

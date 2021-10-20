@@ -2075,6 +2075,10 @@ body .game-history-container-modal #game-history-container table#game-history tb
 }
 
 body .game-history-container-modal #game-history-container table#game-history tbody tr td:nth-child(5) {
+  text-align: right;
+}
+
+body .game-history-container-modal #game-history-container table#game-history tbody tr td:nth-child(6) {
   text-transform: capitalize;
   text-align: left;
 }
