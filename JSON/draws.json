@@ -874,6 +874,13 @@
 			"numbers": [4,18,21,24,37,58],
 			"bonusBall": 22,
 			"winner": false
+		},
+		{
+			"date": "20/10/2021",
+			"day": "Wednesday",
+			"numbers": [23,27,29,37,43,47],
+			"bonusBall":11,
+			"winner": false
 		}
 
 	]
