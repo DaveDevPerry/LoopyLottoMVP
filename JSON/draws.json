@@ -895,6 +895,13 @@
 			"numbers": [8,20,22,39,47,48],
 			"bonusBall":16,
 			"winner": false
+		},
+		{
+			"date": "31/10/2021",
+			"day": "Saturday",
+			"numbers": [7,18,47,51,56,59],
+			"bonusBall": 17,
+			"winner": false
 		}
 
 	]
