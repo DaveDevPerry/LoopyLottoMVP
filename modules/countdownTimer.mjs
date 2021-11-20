@@ -23,7 +23,7 @@
 // 	}, 1000);
 // }
 
-// need to write automatic function to save changing this every week
+// need to write automatic  function to save changing this every week
 
 export function countdownTimer() {
 	// const nextDraw = returnNextDraw();
