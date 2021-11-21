@@ -937,6 +937,13 @@
 			"numbers": [13,24,34,35,49,55],
 			"bonusBall": 53,
 			"winner": false
+		},
+		{
+			"date": "20/11/2021",
+			"day": "Saturday",
+			"numbers": [5,16,17,32,51,59],
+			"bonusBall": 53,
+			"winner": false
 		}
 
 	]
