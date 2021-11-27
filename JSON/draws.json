@@ -951,6 +951,13 @@
 			"numbers": [4,11,17,19,39,42],
 			"bonusBall": 59,
 			"winner": false
+		},
+		{
+			"date": "27/11/2021",
+			"day": "Saturday",
+			"numbers": [1,15,16,17,24,48],
+			"bonusBall": 9,
+			"winner": false
 		}
 
 	]
