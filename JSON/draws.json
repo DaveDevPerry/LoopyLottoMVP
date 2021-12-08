@@ -972,6 +972,13 @@
 			"numbers": [8,24,25,32,33,46],
 			"bonusBall": 47,
 			"winner": false
+		},
+		{
+			"date": "08/12/2021",
+			"day": "Wednesday",
+			"numbers": [12,30,31,34,52,58],
+			"bonusBall": 56,
+			"winner": false
 		}
 
 	]
