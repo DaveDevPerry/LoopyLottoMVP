@@ -992,6 +992,13 @@
 			"day": "Wednesday",
 			"numbers": [2,15,17,28,30,45],
 			"bonusBall": 54,
+			"winner": "martin"
+		},
+		{
+			"date": "22/12/2021",
+			"day": "Saturday",
+			"numbers": [12,23,27,45,51,54],
+			"bonusBall": 59,
 			"winner": false
 		}
 
