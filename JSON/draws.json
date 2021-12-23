@@ -1000,6 +1000,13 @@
 			"numbers": [12,23,27,45,51,54],
 			"bonusBall": 59,
 			"winner": false
+		},
+		{
+			"date": "22/12/2021",
+			"day": "Wednesday",
+			"numbers": [6,13,14,20,45,52],
+			"bonusBall": 54,
+			"winner": false
 		}
 
 	]
