@@ -1014,6 +1014,13 @@
 			"numbers": [15,24,26,30,42,59],
 			"bonusBall": 18,
 			"winner": false
+		},
+		{
+			"date": "29/12/2021",
+			"day": "Wednesday",
+			"numbers": [3,17,28,42,52,57],
+			"bonusBall": 58,
+			"winner": false
 		}
 
 	]
