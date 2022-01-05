@@ -27,8 +27,8 @@
 
 export function countdownTimer() {
 	// const nextDraw = returnNextDraw();
-	const nextDraw = 'Jan 05, 2022 19:45:00';
-	// const nextDraw = 'Jan 01, 2022 20:00:00';
+	// const nextDraw = 'Jan 05, 2022 19:45:00';
+	const nextDraw = 'Jan 08, 2022 20:00:00';
 	// last datE 
 	console.log(nextDraw);
 
