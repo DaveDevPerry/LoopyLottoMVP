@@ -1083,6 +1083,13 @@
 			"day": "Saturday",
 			"numbers": [4,12,35,41,47,50],
 			"bonusBall": 46,
+			"winner": "Jackie"
+		},
+		{
+			"date": "02/02/2022",
+			"day": "Wednesday",
+			"numbers": [6,22,29,48,50,59],
+			"bonusBall": 3,
 			"winner": false
 		}
 
