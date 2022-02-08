@@ -22,6 +22,8 @@ body .loader-container {
   place-content: center;
   background-color: grey;
   z-index: 100;
+  -webkit-transition: opacity 1s ease-in-out;
+  transition: opacity 1s ease-in-out;
 }
 
 body .loader-container .loader-wrapper .loader-loopy,

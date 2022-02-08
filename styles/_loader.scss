@@ -9,6 +9,7 @@ body {
 		place-content: center;
 		background-color: $grey;
 		z-index: 100;
+		transition: opacity 1s ease-in-out;
 		.loader-wrapper {
 			// background-color: lightblue;
 			.loader-loopy,
