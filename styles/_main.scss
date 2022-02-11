@@ -45,6 +45,7 @@ body {
 		// border: 1px solid;
 		display: grid;
 		place-content: center;
+		cursor: pointer;
 		img {
 			padding-left: 1rem;
 		}
@@ -291,4 +292,10 @@ footer {
 	height: 2vh;
 	// width: 95vw;
 	margin: auto;
+	// background-color: red;
+	p {
+		font-size: 1.2rem;
+		color: $primaryColor;
+		text-align: center;
+	}
 }

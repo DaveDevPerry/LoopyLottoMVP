@@ -33,6 +33,7 @@ window.onload = function () {
 	setTimeout(() => {
 		// document.querySelector('.loader-container').style.display = 'none';
 		document.querySelector('.loader-container').style.opacity = '0';
+		document.querySelector('.loader-container').style.display = 'none';
 		document.querySelector('#intro').play();
 	}, 2000);
 };

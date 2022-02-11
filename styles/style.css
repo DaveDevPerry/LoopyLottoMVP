@@ -588,6 +588,7 @@ body .game-history-btn-container {
   display: -ms-grid;
   display: grid;
   place-content: center;
+  cursor: pointer;
 }
 
 body .game-history-btn-container img {
@@ -947,6 +948,12 @@ footer {
   background-color: #edeff3;
   height: 2vh;
   margin: auto;
+}
+
+footer p {
+  font-size: 1.2rem;
+  color: #af0303;
+  text-align: center;
 }
 
 .current-game {
@@ -1824,6 +1831,7 @@ footer {
     -ms-grid-row: 3;
     grid-row: 3;
     margin-top: 2rem;
+    width: 100%;
   }
   #current-game .grid-container .grid-item3 {
     -ms-grid-row: 4;
