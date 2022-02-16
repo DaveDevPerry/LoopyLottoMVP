@@ -1112,6 +1112,13 @@
 			"numbers": [9,16,26,28,47,58],
 			"bonusBall": 49,
 			"winner": false
+		},
+		{
+			"date": "16/02/2022",
+			"day": "Wednesday",
+			"numbers": [21,27,31,50,53,59],
+			"bonusBall": 24,
+			"winner": false
 		}
 
 	]
