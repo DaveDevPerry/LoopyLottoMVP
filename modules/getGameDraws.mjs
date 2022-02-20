@@ -1,4 +1,4 @@
-import { gameStartDates } from './daveToInput.mjs';
+import { gameStartDates } from './startDateInput.mjs';
 
 export let numOfGameDraws = 0;
 export function getGameDraws(draws) {

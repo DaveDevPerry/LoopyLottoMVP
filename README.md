@@ -1,5 +1,7 @@
 # Loopy Lotto
 
+![Screenshot](loopy-lotto-logo.png)
+
 Project Link: [Loopy Lotto](https://bit.ly/loopylotto)
 
 ## Project title
@@ -7,6 +9,10 @@ Project Link: [Loopy Lotto](https://bit.ly/loopylotto)
 <!-- A little info about your project and/ or overview that explains **what** the project is about. -->
 
 A multiplayer game in which the lotto meets bingo, giving a different twist on the normal lotto
+
+## Game Details
+
+Each player choses ten numbers (from available lotto numbers range). Mark off each of your numbers if the ball was drawn in the official lotto draw. The winner is the first person to match all ten numbers.
 
 ## Motivation
 
@@ -33,11 +39,7 @@ Vanilla Javascript and SASS
 
 <!-- Include logo/demo screenshot etc. -->
 
-![Screenshot](loopy-lotto-logo.png)
-![Screenshot](loopy-lotto-logo.png =250x)
-
 ![Screenshot](ll.png)
-![Screenshot](ll.png =250x)
 
 <!-- ## Tech/framework used
 
@@ -54,11 +56,12 @@ What makes your project stand out? -->
 ## Future Features
 
 - MERN stack
-- user authentication
-- draws updated via an external API
-- payments with PayPal
-- random number generator
-- ball statistics
+- User authentication
+- Lotto draws updated via an external API
+- Payments with PayPal
+- Random number generator
+- Ball statistics
+- Player statistics
 
 <!-- ## Code Example
 
@@ -82,7 +85,53 @@ Describe and show how to run the tests with code examples. -->
 
 1.Player data is added in users.json
 2.Every draw is added in draws.json
+
+```javascript
+	{
+			"date": "19/02/2022",
+			"day": "Saturday",
+			"numbers": [33,34,44,50,56,57],
+			"bonusBall": 26,
+			"winner": false
+		}
+```
+
 3.Countdown timer is reset in var nextDraw located in countdownTimer function
+
+```javascript
+const nextDraw = 'Feb 23, 2022 19:45:00';
+```
+
+4.Winner is added in draw object
+
+```javascript
+	{
+			"date": "19/02/2022",
+			"day": "Saturday",
+			"numbers": [33,34,44,50,56,57],
+			"bonusBall": 26,
+			"winner": "WINNERS NAME"
+		}
+```
+
+5.To begin a new game, add start date in startDateInput.mjs
+
+```javascript
+const gameStartDates = [
+	'08/08/2020',
+	'30/09/2020',
+	'26/12/2020',
+	'10/02/2021',
+	'24/03/2021',
+	'12/05/2021',
+	'10/07/2021',
+	'11/08/2021',
+	'09/10/2021',
+	'13/11/2021',
+	'18/12/2021',
+	'02/02/2022',
+];
+```
 
 <!-- ## Contribute
 
