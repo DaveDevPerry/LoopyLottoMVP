@@ -1,6 +1,6 @@
 # Loopy Lotto
 
-[Link to Loop Lotto](https://bit.ly/loopylotto)
+Project Link: [Loopy Lotto](https://bit.ly/loopylotto)
 
 ## Project title
 
@@ -34,8 +34,10 @@ Vanilla Javascript and SASS
 <!-- Include logo/demo screenshot etc. -->
 
 ![Screenshot](loopy-lotto-logo.png)
+![Screenshot](loopy-lotto-logo.png =250x)
 
 ![Screenshot](ll.png)
+![Screenshot](ll.png =250x)
 
 <!-- ## Tech/framework used
 
@@ -78,9 +80,9 @@ Describe and show how to run the tests with code examples. -->
 
 <!-- If people like your project they’ll want to learn how they can use it. To do so include step by step guide to use your project. -->
 
-1 Player data is added in users.json
-2 Every draw is added in draws.json
-3 Countdown timer is reset in var nextDraw located in countdownTimer function
+1.Player data is added in users.json
+2.Every draw is added in draws.json
+3.Countdown timer is reset in var nextDraw located in countdownTimer function
 
 <!-- ## Contribute
 
@@ -94,9 +96,9 @@ Give proper credits. This could be a link to any repo which inspired you to buil
 
 ## Contact
 
-If you want to contact me you can reach me at [Link to website](https://daveperry.tech)
+If you want to contact me you can reach me at [daveperry.tech](https://daveperry.tech)
 
-Project Link: [loopy lotto repo](https://github.com/your_username/repo_name)
+<!-- [loopy lotto repo](https://github.com/your_username/repo_name) -->
 
 ## License
 
