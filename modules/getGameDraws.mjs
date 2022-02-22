@@ -2,7 +2,7 @@ import { gameStartDates } from './startDateInput.mjs';
 
 export let numOfGameDraws = 0;
 export function getGameDraws(draws) {
-	console.log(draws);
+	// console.log(draws);
 	// console.log(drawData);
 	let allDrawsInGame = [];
 	let lastStartDate = gameStartDates.length;
@@ -14,7 +14,7 @@ export function getGameDraws(draws) {
 		// console.log(draw, index);
 		// console.log(draw.date);
 		if (draw.date == startDate) {
-			console.log('yes', draw.date, index);
+			// console.log('yes', draw.date, index);
 			startIndex = index;
 			// startTime = Date.parse(draw.date);
 			// console.log(startTime);
@@ -23,10 +23,10 @@ export function getGameDraws(draws) {
 		}
 	});
 	// new array using start index
-	console.log(draws);
-	console.log(draws.data.draw.length);
+	// console.log(draws);
+	// console.log(draws.data.draw.length);
 	for (let i = startIndex; i < draws.data.draw.length; i++) {
-		console.log(draws.data.draw[i]);
+		// console.log(draws.data.draw[i]);
 		let arr = [];
 		arr.push(draws.data.draw[i].date);
 		for (let j = 0; j < draws.data.draw[i].numbers.length; j++) {
@@ -35,7 +35,7 @@ export function getGameDraws(draws) {
 		arr.push(draws.data.draw[i].bonusBall);
 		allDrawsInGame.push(arr);
 	}
-	console.log(allDrawsInGame);
+	// console.log(allDrawsInGame);
 	numOfGameDraws = allDrawsInGame.length;
 	return allDrawsInGame;
 }

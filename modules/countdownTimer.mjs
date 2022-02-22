@@ -30,11 +30,11 @@ export function countdownTimer() {
 	const nextDraw = 'Feb 23, 2022 19:45:00';
 	// const nextDraw = 'Feb 19, 2022 20:00:00';
 	// last datE 
-	console.log(nextDraw);
+	// console.log(nextDraw);
 
 	// sat 19:45 wed 20:00
 	const satDrawTimer = new Date(`${nextDraw}`).getTime();
-	console.log(satDrawTimer);
+	// console.log(satDrawTimer);
 	// const satDrawTimer = new Date('June 16, 2021 20:00:00').getTime();
 	const x = setInterval(function () {
 		const now = new Date().getTime();
@@ -66,14 +66,14 @@ function returnNextDraw() {
 	// const wedDraw = 
 	// get last updated draw
 	const lastDraw = document.querySelector('#game-last-updated').innerText;
-	console.log(lastDraw);
+	// console.log(lastDraw);
 	// current date details
 	const now = new Date().getTime();
 	const today = new Date().toLocaleDateString();
 
-	console.log(today);
+	// console.log(today);
 	const day = new Date().getDay();
-	console.log(day);
+	// console.log(day);
 	let nextDraw;
 
 	// if(day === 0 || day === 1 || day === 2){
@@ -87,13 +87,13 @@ function returnNextDraw() {
 	// console.log(nextWed);
 	const nextSat = new Date(nextSatDraw()).getTime();
 	const currentDate = new Date().getTime();
-	console.log(currentDate, nextWed, nextSat);
+	// console.log(currentDate, nextWed, nextSat);
 
 	// const msToWed = nextWed - currentDate;
 	// const msToSat = nextSat - currentDate;
 	const msToWed = currentDate % nextWed;
 	const msToSat = currentDate % nextSat;
-	console.log(msToWed, msToSat);
+	// console.log(msToWed, msToSat);
 
 	if (msToWed < msToSat) {
 		nextDraw = nextSatDraw();
@@ -103,7 +103,7 @@ function returnNextDraw() {
 	}
 
 	const nextDrawMs = new Date(nextDraw).getTime();
-	console.log(nextDrawMs);
+	// console.log(nextDrawMs);
 
 
 	return nextDraw;
@@ -115,17 +115,17 @@ function nextWedDraw() {
 
 	let d = new Date();
 	d.setDate(d.getDate() + (3 + 7 - d.getDay()) % 7);
-	console.log(d);
+	// console.log(d);
 
 	const month = months[d.getMonth()];
-	console.log(month);
+	// console.log(month);
 	const day = d.getDate();
-	console.log(day);
+	// console.log(day);
 	const year = d.getFullYear();
-	console.log(year);
+	// console.log(year);
 
 	const nextDraw = `${month} ${day}, ${year} ${drawTime}`;
-	console.log(nextDraw);
+	// console.log(nextDraw);
 	return nextDraw;
 }
 
@@ -135,16 +135,16 @@ function nextSatDraw() {
 
 	let d = new Date();
 	d.setDate(d.getDate() + (6 + 7 - d.getDay()) % 7);
-	console.log(d);
+	// console.log(d);
 
 	const month = months[d.getMonth()];
-	console.log(month);
+	// console.log(month);
 	const day = d.getDate();
-	console.log(day);
+	// console.log(day);
 	const year = d.getFullYear();
-	console.log(year);
+	// console.log(year);
 
 	const nextDraw = `${month} ${day}, ${year} ${drawTime}`;
-	console.log(nextDraw);
+	// console.log(nextDraw);
 	return nextDraw;
 }

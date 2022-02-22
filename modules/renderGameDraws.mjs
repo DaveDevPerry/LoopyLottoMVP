@@ -1,8 +1,8 @@
 export function renderGameDraws(arr) {
 	// document.querySelector('#game-number').innerText = gameStartDates.length;
-	console.log(arr);
+	// console.log(arr);
 	let reversed = arr.reverse();
-	console.log(reversed);
+	// console.log(reversed);
 	// reader metrics
 	document.querySelector('#game-start-date').innerText =
 		reversed[reversed.length - 1][0];

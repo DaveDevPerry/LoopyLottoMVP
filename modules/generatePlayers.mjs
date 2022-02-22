@@ -1,5 +1,5 @@
 export function generatePlayers(arr) {
-	console.log(arr);
+	// console.log(arr);
 	let playerArr = [];
 	arr.forEach((user) => {
 		let arr = [];
@@ -12,9 +12,9 @@ export function generatePlayers(arr) {
 			arr.push(user.numbers.totalDrawn);
 			playerArr.push(arr);
 		} else {
-			console.log('not playing');
+			// console.log('not playing');
 		}
 	});
-	console.log(playerArr);
+	// console.log(playerArr);
 	return playerArr;
 }

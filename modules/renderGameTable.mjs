@@ -1,7 +1,7 @@
 import { numOfGameDraws } from './getGameDraws.mjs';
 
 export function renderGameTable(playerArr) {
-	console.log(playerArr);
+	// console.log(playerArr);
 
 	document.querySelector('#num-of-players').innerText = playerArr.length;
 	document.querySelector('#prize-pot').innerText = `£${

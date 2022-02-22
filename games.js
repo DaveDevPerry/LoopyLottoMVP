@@ -78,7 +78,7 @@ function createGameArr() {
 		gameObj.endDate = game[game.length - 1].date;
 		gameObj.draws = game.length;
 		gameObj.winnings = 8 * game.length * 0.5;
-		console.log(game);
+		// console.log(game);
 		game.forEach((draw) => {
 			gameObj.balls.push(draw.bonusBall);
 			gameObj.balls.push(...draw.numbers);
@@ -100,7 +100,7 @@ function createGameArr() {
 function renderGameHistory() {
 	const parentElement = document.querySelector('#game-history tbody');
 
-	console.log(gameArr);
+	// console.log(gameArr);
 	gameArr.forEach((game) => {
 		const row = document.createElement('tr');
 		const gameData = `
@@ -133,7 +133,7 @@ function storeUserDataFromFetch(user, data) {
 	allUserData = data;
 	allUsersArr = user;
 	compilePlayers();
-	console.log(playerStatsArr);
+	// console.log(playerStatsArr);
 }
 
 function getUserData() {

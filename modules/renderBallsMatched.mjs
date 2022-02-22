@@ -1,7 +1,7 @@
 export function renderBallsMatched(uniqueBalls) {
 	let balls = document.querySelectorAll('.ball');
 
-	console.log(uniqueBalls);
+	// console.log(uniqueBalls);
 	balls.forEach((ball) => {
 		// console.log(ball);
 		// console.log(parseInt(ball.innerText));
