@@ -1,4 +1,4 @@
-import { gameStartDates } from '../modules/daveToInput.mjs';
+import { gameStartDates } from '../modules/startDateInput.mjs';
 
 export function getEachGame(data) {
 	let drawData = data;

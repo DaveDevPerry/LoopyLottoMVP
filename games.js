@@ -1,4 +1,4 @@
-import { gameStartDates } from './modules/daveToInput.mjs';
+import { gameStartDates } from './modules/startDateInput.mjs';
 import { renderGameHistoryTable } from './modules/getAllGamesData.mjs';
 
 const gameHistoryBtn = document.querySelectorAll('.game-history-btn');
