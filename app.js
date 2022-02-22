@@ -27,7 +27,7 @@ function loadDrawJSON(e, a, r) {
 }
 renderGameHistoryTable(),
 	(window.onload = function () {
-		document.querySelector('#intro').play();
+		// document.querySelector('#intro').play();
 	}),
 	(document.querySelector('#date').innerText = getDate()),
 	(document.querySelector('#game-number').innerText = gameStartDates.length),
