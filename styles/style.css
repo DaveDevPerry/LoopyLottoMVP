@@ -593,6 +593,8 @@ body .game-history-btn-container {
 
 body .game-history-btn-container img {
   padding-left: 1rem;
+  height: 40px;
+  width: 30px;
 }
 
 body .current-draw-menu {
