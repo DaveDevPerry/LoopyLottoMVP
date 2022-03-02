@@ -1140,6 +1140,13 @@
 			"numbers": [5,8,33,37,47,52],
 			"bonusBall": 20,
 			"winner": false
+		},
+		{
+			"date": "02/03/2022",
+			"day": "Wednesday",
+			"numbers": [43,48,49,52,55,58],
+			"bonusBall": 32,
+			"winner": false
 		}
 
 	]
