@@ -1154,6 +1154,13 @@
 			"numbers": [10,21,29,33,42,51],
 			"bonusBall": 48,
 			"winner": false
+		},
+		{
+			"date": "09/03/2022",
+			"day": "Wednesday",
+			"numbers": [3,10,26,38,41,47],
+			"bonusBall": 45,
+			"winner": false
 		}
 
 	]
