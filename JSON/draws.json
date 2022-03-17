@@ -1167,6 +1167,13 @@
 			"day": "Saturday",
 			"numbers": [7,13,21,23,39,44],
 			"bonusBall": 16,
+			"winner": "Doug / Jackie"
+		},
+		{
+			"date": "16/03/2022",
+			"day": "Wednesday",
+			"numbers": [],
+			"bonusBall": "",
 			"winner": false
 		}
 
