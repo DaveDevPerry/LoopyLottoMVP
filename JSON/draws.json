@@ -1204,6 +1204,35 @@
 			"bonusBall": 29,
 			"winner": false
 		}
+		,
+		{
+			"date": "02/04/2022",
+			"day": "Saturday",
+			"numbers": [22,24,27,30,52,57],
+			"bonusBall": 20,
+			"winner": false
+		},
+		{
+			"date": "06/04/2022",
+			"day": "Wednesday",
+			"numbers": [3,17,23,24,30,49],
+			"bonusBall": 59,
+			"winner": false
+		},
+		{
+			"date": "09/04/2022",
+			"day": "Saturday",
+			"numbers": [10,11,18,29,44,59],
+			"bonusBall": 17,
+			"winner": false
+		},
+		{
+			"date": "13/04/2022",
+			"day": "Wednesday",
+			"numbers": [1,7,10,30,40,53],
+			"bonusBall": 2,
+			"winner": false
+		}
 
 	]
 }
