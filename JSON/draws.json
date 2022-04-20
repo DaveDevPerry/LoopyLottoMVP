@@ -1238,6 +1238,13 @@
 			"numbers": [2,4,6,35,55,58],
 			"bonusBall": 44,
 			"winner": false
+		},
+		{
+			"date": "20/04/2022",
+			"day": "Wednesday",
+			"numbers": [5,8,24,47,50,53],
+			"bonusBall": 31,
+			"winner": false
 		}
 
 	]
