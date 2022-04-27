@@ -1252,6 +1252,13 @@
 			"numbers": [7,10,24,31,48,56],
 			"bonusBall": 15,
 			"winner": false
+		},
+		{
+			"date": "27/04/2022",
+			"day": "Wednesday",
+			"numbers": [10,22,35,38,56,57],
+			"bonusBall": 46,
+			"winner": false
 		}
 
 	]
