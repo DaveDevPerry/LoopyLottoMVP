@@ -1266,6 +1266,13 @@
 			"numbers": [15,19,26,41,51,57],
 			"bonusBall": 52,
 			"winner": false
+		},
+		{
+			"date": "04/05/2022",
+			"day": "Wednesday",
+			"numbers": [6,10,29,50,55,57],
+			"bonusBall": 5,
+			"winner": false
 		}
 
 	]
