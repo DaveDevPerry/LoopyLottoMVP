@@ -1280,6 +1280,13 @@
 			"numbers": [3,5,6,15,41,45],
 			"bonusBall": 39,
 			"winner": false
+		},
+		{
+			"date": "11/05/2022",
+			"day": "Wednesday",
+			"numbers": [21,34,37,39,44,51],
+			"bonusBall": 26,
+			"winner": false
 		}
 
 	]
