@@ -11,18 +11,12 @@ export function renderEachGame(arr) {
 		gameHistContainer.appendChild(noGames);
 	} else {
 		arr.forEach((game) => {
-			console.log(game);
-
 			const eachGame = document.createElement('div');
 			eachGame.classList.add('all-draw-history');
-			// eachGame.classList.add('grid-item3');
-
 			const section = document.createElement('section');
 			section.classList.add('all-game-history');
 			section.classList.add('container');
-
 			eachGame.appendChild(section);
-
 			const title = document.createElement('div');
 			title.classList.add('section-title');
 			const titleHTML = `
@@ -36,7 +30,6 @@ export function renderEachGame(arr) {
 					game.draws.length
 				}</span></i>
       </div>
-      
     </div>
     <div class="game-metric-icons">
       <div class="metric">
@@ -50,9 +43,7 @@ export function renderEachGame(arr) {
     </div>
     `;
 			title.innerHTML = titleHTML;
-
 			section.appendChild(title);
-
 			// table
 			const table = document.createElement('table');
 			table.classList.add('single-game-table');
@@ -67,7 +58,7 @@ export function renderEachGame(arr) {
 			table.appendChild(thead);
 			// tbody
 			const tbody = document.createElement('tbody');
-			// loop throu each draw
+			// loop through each draw
 			game.draws.forEach((draw) => {
 				// create tr
 				const row = document.createElement('tr');
@@ -83,7 +74,6 @@ export function renderEachGame(arr) {
 					// adding 0 if below 10
 					if (thisNum < 10) {
 						let td = document.createElement('td');
-
 						td.innerText = `0${thisNum}`;
 						row.appendChild(td);
 					} else if (thisNum > 9) {
@@ -98,11 +88,9 @@ export function renderEachGame(arr) {
 				let bbNum = draw.bonusBall;
 				bb.innerText = bbNum;
 				row.appendChild(bb);
-
 				tbody.appendChild(row);
 			});
 			table.appendChild(tbody);
-
 			section.appendChild(table);
 
 			const footer = document.createElement('div');
@@ -110,9 +98,7 @@ export function renderEachGame(arr) {
 			let endDate = game.draws.length - 1;
 			const footerHTML = `${game.draws[0].date} - ${game.draws[endDate].date}`;
 			footer.innerHTML = footerHTML;
-
 			section.appendChild(footer);
-
 			gameHistContainer.appendChild(eachGame);
 		});
 	}

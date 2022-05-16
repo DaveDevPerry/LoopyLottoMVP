@@ -1,15 +1,12 @@
 import { numOfGameDraws } from './getGameDraws.mjs';
 
 export function renderGameTable(playerArr) {
-	// console.log(playerArr);
-
 	document.querySelector('#num-of-players').innerText = playerArr.length;
 	document.querySelector('#prize-pot').innerText = `£${
 		(playerArr.length - 1) * 0.5 * numOfGameDraws
 	}`;
 
 	document.querySelector('#player-fees').innerText = `Player fees for current game are £${(((playerArr.length - 1) * 0.5 * numOfGameDraws) / 8).toFixed(2)}`;
-	// console.log(arr);
 	// get dom elements
 	const table = document.querySelector('#current-game-players-table');
 	// create thead
@@ -22,11 +19,9 @@ export function renderGameTable(playerArr) {
 	row.innerHTML = html;
 	thead.appendChild(row);
 	table.appendChild(thead);
-	// loop through each player
 	// loop through each player playing
 	const tbody = document.createElement('tbody');
 	for (let i = 0; i < playerArr.length; i++) {
-		// console.log(arr[i]);
 		const row = document.createElement('tr');
 		row.classList.add('player-playing');
 		row.classList.add('highlight');

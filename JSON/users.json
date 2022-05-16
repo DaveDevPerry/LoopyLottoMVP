@@ -2,9 +2,9 @@
 	"user": [
 		{
 			"firstName": "dave",
-			"lastName": "perry",
+			"lastName": "doe",
 			"email": "dave@gmail.com",
-			"userName": "dperry",
+			"userName": "ddoe",
 			"password": "admin",
 			"numbers": {
 				"balls": [
@@ -286,9 +286,9 @@
 		},
 		{
 			"firstName": "hannah",
-			"lastName": "collins",
+			"lastName": "gabanna",
 			"email": "hannah@gmail.com",
-			"userName": "hcollins",
+			"userName": "hgabanna",
 			"password": "lottohc",
 			"numbers": {
 				"balls": [
@@ -428,9 +428,9 @@
 		},
 		{
 			"firstName": "rob",
-			"lastName": "collins",
+			"lastName": "gabanna",
 			"email": "rob@gmail.com",
-			"userName": "rcollins",
+			"userName": "rgabanna",
 			"password": "lottorc",
 			"numbers": {
 				"balls": [
@@ -570,9 +570,9 @@
 		},
 		{
 			"firstName": "brenda",
-			"lastName": "perry",
+			"lastName": "doe",
 			"email": "brenda@gmail.com",
-			"userName": "bperry",
+			"userName": "bdoe",
 			"password": "lottobp",
 			"numbers": {
 				"balls": [
@@ -712,9 +712,9 @@
 		},
 		{
 			"firstName": "mike",
-			"lastName": "perry",
+			"lastName": "doe",
 			"email": "mike@gmail.com",
-			"userName": "mperry",
+			"userName": "mdoe",
 			"password": "lottomp",
 			"numbers": {
 				"balls": [
@@ -854,9 +854,9 @@
 		},
 		{
 			"firstName": "doug",
-			"lastName": "collins",
+			"lastName": "gabanna",
 			"email": "doug@gmail.com",
-			"userName": "dcollins",
+			"userName": "dgabanna",
 			"password": "lottodc",
 			"numbers": {
 				"balls": [
@@ -996,9 +996,9 @@
 		},
 		{
 			"firstName": "john",
-			"lastName": "pimpernell",
+			"lastName": "smith",
 			"email": "john@gmail.com",
-			"userName": "jpimpernell",
+			"userName": "jsmith",
 			"password": "lottojp",
 			"numbers": {
 				"balls": [
@@ -1138,9 +1138,9 @@
 		},
 		{
 			"firstName": "martin",
-			"lastName": "pimpernell",
+			"lastName": "smith",
 			"email": "john@gmail.com",
-			"userName": "mpimpernell",
+			"userName": "msmith",
 			"password": "lottomp",
 			"numbers": {
 				"balls": [
@@ -1422,9 +1422,9 @@
 		},
 		{
 			"firstName": "jacqui",
-			"lastName": "glynn",
+			"lastName": "hudson",
 			"email": "jacqui@gmail.com",
-			"userName": "jglynn",
+			"userName": "jhudson",
 			"password": "lottojg",
 			"numbers": {
 				"balls": [

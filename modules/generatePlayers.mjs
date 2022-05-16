@@ -1,5 +1,4 @@
 export function generatePlayers(arr) {
-	// console.log(arr);
 	let playerArr = [];
 	arr.forEach((user) => {
 		let arr = [];
@@ -15,6 +14,5 @@ export function generatePlayers(arr) {
 			// console.log('not playing');
 		}
 	});
-	// console.log(playerArr);
 	return playerArr;
 }

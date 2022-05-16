@@ -1,5 +1,3 @@
-
-
 export function renderGameHistoryTable(){
   // console.log('in game history func')
   	// get the api data
@@ -8,21 +6,13 @@ export function renderGameHistoryTable(){
   .then((result) => result.json())
   //access the data
   .then((data) => {
-    // console.log(data);
-    // testData.innerText = data;
-    // storeDataFromFetch(data.allSongs);
-    // sortAllSongs(allSongArr);
   });
 }
 
 
 function storeDataFromFetch(data) {
-	// console.log(data);
 	allSongArr = data;
-	// console.log(allSongArr);
-	// sortAllSongs(allSongArr);
 }
-// working promise
 
 function init() {
 	// get the api data
@@ -31,7 +21,6 @@ function init() {
 		.then((result) => result.json())
 		//access the data
 		.then((data) => {
-			// console.log(data);
 			// testData.innerText = data;
 			storeDataFromFetch(data.allSongs);
 			sortAllSongs(allSongArr);

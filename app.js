@@ -26,9 +26,7 @@ function loadDrawJSON(e, a, r) {
 		t.send();
 }
 renderGameHistoryTable(),
-	(window.onload = function () {
-		// document.querySelector('#intro').play();
-	}),
+	(window.onload = function () {}),
 	(document.querySelector('#date').innerText = getDate()),
 	(document.querySelector('#game-number').innerText = gameStartDates.length),
 	document.querySelector('#hamburger-unique').addEventListener('click', (e) => {
